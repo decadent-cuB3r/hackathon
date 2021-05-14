@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ThreeCupChicken",
+    "name": "三杯雞",
+    "amount": "四人份",
+    "ingredients": [
+      { "chickenLeg": "4" },
+      { "gingerSlice": "10" },
+      { "garlic": "10" },
+      { "sesameOil": "120" },
+      { "sugar": "2" },
+      { "soySauce": "120" },
+      { "riceWine": "120" },
+      { "basil": "1" }
+    ],
+    "steps": [
+      "1.將雞腿剁小塊.",
+      "2.鍋中倒入麻油, 以小火將薑片爆至金黃. 將雞腿加入, 以大火將雞腿翻炒至變色.",
+      "3.蒜頭和糖加入翻炒均勻, 倒入醬油和米酒以大火煮滾. 蓋上鍋蓋, 悶至湯汁微微收乾變的較為濃稠 (約10 分鐘).",
+      "4.加入九層塔翻炒, 再嗆入一大匙米酒即可起鍋."
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F161587%2F83ca1ec22fa5895c.jpg&width=1242"
+  }
+]
