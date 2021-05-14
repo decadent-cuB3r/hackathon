@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          我喜歡打日麻。
         </a>
       </header>
     </div>
