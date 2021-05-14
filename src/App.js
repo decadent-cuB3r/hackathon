@@ -15,11 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-<<<<<<< HEAD
-          我喜歡打日麻。
-=======
           123456678
->>>>>>> 4e1839d54bde1841687f34f0274feeab669b5c61
         </a>
       </header>
     </div>
