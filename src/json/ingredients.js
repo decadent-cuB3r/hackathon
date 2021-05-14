@@ -40,5 +40,41 @@
         "name": "米酒",
         "image": "",
         "quantifer": ""
+    },
+    {
+        "id": "egg",
+        "name": "雞蛋",
+        "image": "",
+        "quantifer": "顆"
+    },
+    {
+        "id": "scallion",
+        "name": "蔥",
+        "image": "",
+        "quantifer": "支"
+    },
+    {
+        "id": "driedRadish",
+        "name": "菜脯",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "salt",
+        "name": "鹽",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "pepper",
+        "name": "胡椒粉",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "bonitoSauce",
+        "name": "鰹魚醬油",
+        "image": "",
+        "quantifer": "g"
     }
 ]
