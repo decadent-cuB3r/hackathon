@@ -16,22 +16,22 @@ function Header() {
     <>
       <header className="header">
         <div className="header-wrap">
-          <div className="header-logo" onClick={onClickHeader}>
-            <Link to="/">
-              <img src= { LOGO } alt="logo"/>
-              <img src= { TITLE } alt="title"/>
+          <div className="header-logo-wrap" onClick={onClickHeader}>
+            <Link to="/" className="header-logo">
+              <img src= { LOGO } alt="logo" className="header-logoImg"/>
+              <img src= { TITLE } alt="title" className="header-titleImg"/>
             </Link>
           </div>
           <NavBar />
-          <div className="header-icons-Wrap">
-            <div>
-              <Link to="/login">
+          <div className="header-icons-wrap">
+            <div className="header-icon">
+              <Link to="/login" className="header-icon-link">
                 <UserIcon className="header-userIcon" />
               </Link>              
             </div>
 
-            <div>
-              <Link to="/">
+            <div className="header-icon">
+              <Link to="/" className="header-icon-link">
                 <BagIcon className="header-bagIcon" />
               </Link>
             </div>
