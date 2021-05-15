@@ -10,15 +10,14 @@ export default function NavItem(props) {
   const onClick = () => {
     activeNavItemSet(dispatch, to);
   };
-  
+
   return (
     <Link to={to}>
       <div
         onClick={onClick}
         className={`
         	${className} 
-        	${state.navBar.activeItem === to ? activeClassName : ""}`
-        }
+        	${state.navBar.activeItem === to ? activeClassName : ""}`}
       >
         {children}
       </div>
