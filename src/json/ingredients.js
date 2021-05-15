@@ -94,5 +94,23 @@
         "name": "水",
         "image": "",
         "quantifer": "cc"
+    },
+    {
+        "id": "carrot",
+        "name": "紅蘿蔔",
+        "image": "",
+        "quantifer": "根"
+    },
+    {
+        "id": "onion",
+        "name": "洋蔥",
+        "image": "",
+        "quantifer": "顆"
+    },
+    {
+        "id": "sweetSake",
+        "name": "味醂",
+        "image": "",
+        "quantifer": "湯匙"
     }
 ]
