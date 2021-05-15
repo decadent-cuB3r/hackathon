@@ -16,14 +16,14 @@ function Header() {
     <>
       <header className="header">
         <div className="header-wrap">
-          <div className="header-logo" onClick={onClickHeader}>
-            <Link to="/">
-              <img src= { LOGO } alt="logo"/>
-              <img src= { TITLE } alt="title"/>
+          <div className="header-logo-wrap" onClick={onClickHeader}>
+            <Link to="/" className="header-logo">
+              <img src= { LOGO } alt="logo" className="header-logoImg"/>
+              <img src= { TITLE } alt="title" className="header-titleImg"/>
             </Link>
           </div>
           <NavBar />
-          <div className="header-icons-Wrap">
+          <div className="header-icons-wrap">
             <div>
               <Link to="/">
                 <UserIcon className="header-userIcon" />

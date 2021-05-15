@@ -22,7 +22,7 @@ export default function NavBar() {
       <div className="navBar collapse-mobile">
         <NavItem
           to="/cook"
-          className="nav-item"
+          className="nav-item nav-item-first"
           activeClassName="nav-item--active"
         >
           咖雞煮什麼
