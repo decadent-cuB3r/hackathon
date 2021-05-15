@@ -142,5 +142,65 @@
         "name": "豆瓣醬",
         "image": "https://www.u365.com.tw/website/uploads_product/website_1170/P0117000563880_1_2328039.jpg?_53687",
         "quantifer": "大匙"
+    },
+    {
+        "id": "carrot",
+        "name": "紅蘿蔔",
+        "image": "https://befreshcorp.net/wp-content/uploads/2017/06/product-packshot-Carrot-558x600.jpg",
+        "quantifer": "根"
+    },
+    {
+        "id": "onion",
+        "name": "洋蔥",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71G2ZJO50%2BL._AC_SL1500_.jpg",
+        "quantifer": "顆"
+    },
+    {
+        "id": "sweetSake",
+        "name": "味醂",
+        "image": "https://c.ecimg.tw/items/DBAI0PA80666756/000001_1478282497.jpg",
+        "quantifer": "湯匙"
+    },
+    {
+        "id": "pork",
+        "name": "豬肉",
+        "image": "https://image-cdn-flare.qdm.cloud/q69d59313b3e3a/image/cache/data/product/TP02E69CACE794A2E8B1ACE6A285E88AB1E8B1ACE88289E78987/dc98fae920d332fd103937187d424902_1-max-w-1024.jpg",
+        "quantifer": "g"
+    },
+    {
+        "id": "snapper",
+        "name": "鯛魚",
+        "image": "",
+        "quantifer": "片"
+    },
+    {
+        "id": "yellowBellPepper",
+        "name": "黃甜椒",
+        "image": "",
+        "quantifer": "顆"
+    },
+    {
+        "id": "cornFlour",
+        "name": "玉米粉",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "granulatedSugar",
+        "name": "砂糖",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "whiteVinegar",
+        "name": "白醋",
+        "image": "",
+        "quantifer": "ml"
+    },
+    {
+        "id": "ketchup",
+        "name": "番茄醬",
+        "image": "",
+        "quantifer": "ml"
     }
 ]

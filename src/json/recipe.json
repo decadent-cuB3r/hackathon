@@ -22,7 +22,7 @@
     "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F161587%2F83ca1ec22fa5895c.jpg&width=1242"
   },
   {
-    "id": "preservedRadishomelette",
+    "id": "preservedRadishOmelette",
     "name": "菜脯蛋",
     "amount": "三人份",
     "ingredients": [
@@ -39,25 +39,7 @@
       "3.炒香的菜脯加入蔥蛋液中，攪拌均勻，下一大匙油，油熱後把蛋液下下去。",
       "4.兩面煎焦香後就可以起鍋了。"
     ],
-    "image":"https://tokyo-kitchen.icook.network/uploads/recipe/cover/328980/f591b7fd14dbdf8c.jpg"
-  },
-  {
-    "id": "sesameOilEgg",
-    "name": "麻油麵線雞蛋煎",
-    "amount": "一人份",
-    "ingredients": [
-      [ "vermicelli","1" ],
-      [ "scallion","3" ],
-      [ "egg","1" ],
-      [ "sesameOil","45" ]
-    ],
-    "steps": [
-      "1.水煮熟的麵線瀝乾。",
-      "2.加入麻油拌勻下鍋整成薄薄圓餅狀，小火將第一面煎至金黃色約5-6分鐘，將鍋子倒扣於盤子取出麵線煎備用。",
-      "3.下蔥蛋之後，將麵線煎（未煎的那面）下鍋鋪於蛋液上續煎1-2分鐘至蛋表面酥香起鍋盛盤。",
-      "4.好吃的麻油雞蛋麵線煎就完成囉！"
-    ],
-    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369753%2F5d11e73630a35f66.jpg&width=443"
+    "image": "https://tokyo-kitchen.icook.network/uploads/recipe/cover/328980/f591b7fd14dbdf8c.jpg"
   },
   {
     "id": "chickenGarlicSoup",
@@ -67,6 +49,30 @@
       ["chickenLeg", "2"],
       ["driedShiitake", "10"],
       ["garlic", "10"]
+    ],
+    "steps": [
+        "1.乾香菇洗淨後用300cc熱開水浸泡，軟化後撈起擠乾備用，香菇水留下來運用。",
+        "2.中火熱油鍋將蒜頭爆香至略為金黃後立馬撈起備用。",
+        "3.將撈起的蒜頭浸泡香菇水。",
+        "4.將剛爆香完的蒜頭油，再次爆香香菇，這二樣都中小火爆即可，食材味道才不會因爆香過烈可惜了。",
+        "5.雞腿肉要先以熱開水汆燙後放入略為拌炒至熱氣上升後，加入步驟三的蒜頭香菇水，再加入熱開水準備燉煮，您可移至電鍋以一杯水外鍋燉，或是如我的作法用湯鍋小火悶燉。",
+        "6.湯頭要好喝就是過程都不要好奇去開鍋:joy:把握好時間及中小火慢燉就對了，燉上約30分後，開鍋調味就行囉。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F371280%2F207937109b9ca420.jpg&width=1242"
+  },
+  {
+    "id": "potatoChicken",
+    "name": "馬鈴薯燉雞腿肉",
+    "amount": "三人份",
+    "ingredients": [
+      ["chickenLeg", "2"],
+      ["potato", "2"],
+      ["carrot", "1"],
+      ["onion", "1"],
+      ["soySauce", "5"],
+      ["riceWine", "3"],
+      ["sugar", "1"],
+      ["sweetSake", "2"]
     ],
     "steps": [
       "1.乾香菇洗淨後用300cc熱開水浸泡，軟化後撈起擠乾備用，香菇水留下來運用。",
@@ -123,5 +129,72 @@
       "8.勾芡後鍋邊淋入花椒油後出盤，撒上蔥花即可。"
     ],
     "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F372449%2F282ef817c78db182.jpg&width=443"
+  },
+  {
+    "id": "gingerPork",
+    "name": "薑汁燒肉",
+    "amount": "二人份",
+    "ingredients": [
+        ["pork", "200"],
+        ["gingerSlice", "5"],
+        ["garlic", "2.5"],
+        ["soySauce", "30"],
+        ["sugar", "1"],
+        ["water", "10"]
+    ],
+    "steps": [
+      "1.將薑末、蒜末、醬油、砂糖、水製成醃料，倒入豬肉片中醃5分鐘（也可以事先醃好）。",
+      "2.熱油鍋後放入豬肉片。",
+      "3.一面煎至變白色後翻面淋上「調味」繼續煎。",
+      "4.煮至豬肉熟透即可上桌。",
+      "5.可依個人喜好灑上白芝麻及蔥末。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F303665%2F363059cb1c0abe6b.jpg&width=443"
+  },
+  {
+    "id": "friedOysterMushroom",
+    "name": "酥炸杏苞菇",
+    "amount": "二人份",
+    "ingredients": [
+        ["kingOysterMushroom", "400"],
+        ["pepper", "10"],
+        ["low-glutenFlour", "70"],
+        ["yolk", "1"],
+        ["water", "100"]
+    ],
+    "steps": [
+      "1.杏鮑菇用廚房紙巾擦拭乾淨後切滾刀塊狀。",
+      "2.在鍋中加入粉漿材料（低粉70g、蛋黃1顆、水100g、胡椒粉適量）攪拌均勻。",
+      "3.油鍋加熱至粉漿滴入後直接浮起，即可將杏鮑菇加入粉漿中沾附粉漿。",
+      "4.下鍋油炸（因為我的炸鍋較小，粉漿彼此會黏在一起，可使用筷子分開），杏鮑菇以中火炸至金黃色即可起鍋瀝油。",
+      "5.在炸的過程中會有小小粉漿脫落，要不定時用撈網撈起，才不會炸到焦掉。",
+      "6.在炸好的杏鮑菇上撒適量的胡椒粉，香酥杏鮑菇即可上桌。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F339232%2Fa462dd2889b423b8.jpg&width=443"
+  },
+  {
+    "id": "sweatAndSourFish",
+    "name": "糖醋魚",
+    "ingredients": [
+      [ "snapper","2" ],
+      [ "onion","1/2" ],
+      [ "yellowBellPepper","1/2" ],
+      [ "egg","1" ],
+      [ "riceWine","15" ],
+      [ "salt","5" ],
+      [ "cornFlour","5" ],
+      [ "granulatedSugar","30" ],
+      [ "whiteVinegar","30" ],
+      [ "water","60" ],
+      [ "ketchup","60" ]
+    ],
+    "steps": [
+      "1.鯛魚切塊，以蛋、米酒、鹽巴、玉米粉製成醃料並抓醃備用。洋蔥、甜椒切塊，蒜頭切末。砂糖、白醋、水混合備用。",
+      "2.魚片雙面裹上地瓜粉靜置五分鐘反潮。",
+      "3.起一油鍋，熱油後將蔬菜過油15秒起鍋備用。",
+      "4.從鍋邊放入魚片炸至金黃起鍋。",
+      "5.起鍋倒油爆香蒜末，加入番茄醬炒香，再倒入糖醋水拌勻，接著放入蔬菜炒勻、最後放入魚片快速拌勻後起鍋完成。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F356553%2Fa13c1097a956947b.jpg&width=443"
   }
 ]
