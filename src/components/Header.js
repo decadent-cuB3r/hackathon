@@ -31,7 +31,7 @@ function Header() {
             </div>
 
             <div className="header-icon">
-              <Link to="/" className="header-icon-link">
+              <Link to="/cart" className="header-icon-link">
                 <BagIcon className="header-bagIcon" />
               </Link>
             </div>
