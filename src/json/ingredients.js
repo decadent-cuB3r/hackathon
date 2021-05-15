@@ -76,5 +76,17 @@
         "name": "鰹魚醬油",
         "image": "",
         "quantifer": "g"
+    },
+    {
+        "id": "driedShiitake",
+        "name": "乾香菇",
+        "image": "",
+        "quantifer": "朵"
+    },
+    {
+        "id": "water",
+        "name": "水",
+        "image": "",
+        "quantifer": "cc"
     }
 ]
