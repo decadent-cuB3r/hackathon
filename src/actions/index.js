@@ -4,6 +4,7 @@ import {
   SUCCESS_LOGIN_REQUEST,
   FAIL_LOGIN_REQUEST,
   ADD_CART_ITEM,
+  REMOVE_CART_ITEM,
   SET_RECIPE_DETAIL,
 } from "../utils/constants";
 
@@ -32,6 +33,13 @@ export const addCartItem = (dispatch, recipe, qty) => {
   dispatch({
     type: ADD_CART_ITEM,
     payload: item,
+  });
+};
+
+export const removeCartItem = (dispatch, recipeId) => {
+  dispatch({
+    type: REMOVE_CART_ITEM,
+    payload: recipeId,
   });
 };
 

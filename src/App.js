@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Cook from './pages/Cook';
 import News from './pages/News';
 import Login from './pages/Login';
+import Cart from './pages/Cart';
 import ShoppingGuide from './pages/ShoppingGuide';
 import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />
+          <Route path="/cart" component={Cart} />
           <Route path="/cook" component={Cook} />
           <Route path="/detail/:recipeId" component={Recipe} />
           <Route path="/news" component={News} />

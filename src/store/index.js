@@ -7,6 +7,7 @@ import {
   SUCCESS_LOGIN_REQUEST,
   FAIL_LOGIN_REQUEST,
   ADD_CART_ITEM,
+  REMOVE_CART_ITEM,
   SET_RECIPE_DETAIL,
 } from "../utils/constants";
 
@@ -46,13 +47,13 @@ function reducer(state, action) {
       const item = action.payload;
       const recipe = state.cartItems.find((x) => x.id === item.id);
       if (recipe) {
-        cartItems = state.cartItems.map((x) =>
-          x.id === recipe.id ? item : x
-        );
+        cartItems = state.cartItems.map((x) => (x.id === recipe.id ? item : x));
         return { ...state, cartItems };
       }
       cartItems = [...state.cartItems, item];
       return { ...state, cartItems };
+    case REMOVE_CART_ITEM:
+      cartItems = state.cartItems.filter((x) => x.id !== action.payload);
     case SET_RECIPE_DETAIL:
       return { ...state, recipeDetail: action.payload };
     case BEGIN_LOGIN_REQUEST:
