@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
@@ -6,19 +6,22 @@ import { loginToFirebase } from '../actions'
 import { StoreContext } from "../store"
 
 const LoginForm = () => {
-  const { state:{ userSignin: { loading, error } }, dispatch } = useContext(StoreContext);
+  const { state:{ userSignin: { userInfo, loading, error, remember } }, dispatch } = useContext(StoreContext);
   const [form] = Form.useForm();
   const history = useHistory();
 
-  const onFinishFailed = (errorInfo) => {
-    console.log('Failed: ', errorInfo.errorFields[0].errors[0])
-  };
-  
   const onFinish = async (values) => {
     console.log('Received values of form: ', values);
-    const auth = await loginToFirebase(dispatch, values);
-    auth && history.push("/profile");      
+    await loginToFirebase(dispatch, values);
   };
+
+  // const onChange = e => {
+  //   rememberLoginUser(dispatch, e.target.checked);
+  // }
+
+  // useEffect(() => {
+  //   if(userInfo) history.push(redirect);
+  // }, [ userInfo ]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="loginForm">
@@ -32,7 +35,6 @@ const LoginForm = () => {
           remember: true,
         }}
         onFinish={onFinish}
-        onFihishFailed={onFinishFailed}
       >
         <Form.Item
           name="email"
