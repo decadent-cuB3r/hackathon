@@ -22,7 +22,7 @@
     "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F161587%2F83ca1ec22fa5895c.jpg&width=1242"
   },
   {
-    "id": "preservedRadishomelette",
+    "id": "preservedRadishOmelette",
     "name": "菜脯蛋",
     "amount": "三人份",
     "ingredients": [
@@ -125,5 +125,30 @@
         "6.在炸好的杏鮑菇上撒適量的胡椒粉，香酥杏鮑菇即可上桌。"
       ],
       "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F339232%2Fa462dd2889b423b8.jpg&width=443"
+    },
+    {
+    "id": "sweatAndSourFish",
+    "name": "糖醋魚",
+    "ingredients": [
+      [ "snapper","2" ],
+      [ "onion","1/2" ],
+      [ "yellowBellPepper","1/2" ],
+      [ "egg","1" ],
+      [ "riceWine","15" ],
+      [ "salt","5" ],
+      [ "cornFlour","5" ],
+      [ "granulatedSugar","30" ],
+      [ "whiteVinegar","30" ],
+      [ "water","60" ],
+      [ "ketchup","60" ]
+    ],
+    "steps": [
+      "1.鯛魚切塊，以蛋、米酒、鹽巴、玉米粉製成醃料並抓醃備用。洋蔥、甜椒切塊，蒜頭切末。砂糖、白醋、水混合備用。",
+      "2.魚片雙面裹上地瓜粉靜置五分鐘反潮。",
+      "3.起一油鍋，熱油後將蔬菜過油15秒起鍋備用。",
+      "4.從鍋邊放入魚片炸至金黃起鍋。",
+      "5.起鍋倒油爆香蒜末，加入番茄醬炒香，再倒入糖醋水拌勻，接著放入蔬菜炒勻、最後放入魚片快速拌勻後起鍋完成。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F356553%2Fa13c1097a956947b.jpg&width=443"
   }
 ]

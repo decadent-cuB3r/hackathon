@@ -118,5 +118,41 @@
         "name": "豬肉",
         "image": "https://image-cdn-flare.qdm.cloud/q69d59313b3e3a/image/cache/data/product/TP02E69CACE794A2E8B1ACE6A285E88AB1E8B1ACE88289E78987/dc98fae920d332fd103937187d424902_1-max-w-1024.jpg",
         "quantifer": "g"
+    },
+    {
+        "id": "snapper",
+        "name": "鯛魚",
+        "image": "",
+        "quantifer": "片"
+    },
+    {
+        "id": "yellowBellPepper",
+        "name": "黃甜椒",
+        "image": "",
+        "quantifer": "顆"
+    },
+    {
+        "id": "cornFlour",
+        "name": "玉米粉",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "granulatedSugar",
+        "name": "砂糖",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "whiteVinegar",
+        "name": "白醋",
+        "image": "",
+        "quantifer": "ml"
+    },
+    {
+        "id": "ketchup",
+        "name": "番茄醬",
+        "image": "",
+        "quantifer": "ml"
     }
 ]
