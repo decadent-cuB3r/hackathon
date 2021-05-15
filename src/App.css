@@ -43,7 +43,15 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+/* LAYOUT MAIN */
+.layout-main {
+  background-color: #fff;
+}
 
+
+>>>>>>> 53a749a31c2fa1791ccb9bfb1f24fbe0b4db99ac
 /* HEADER */
 
 .header {
@@ -84,7 +92,13 @@
 .header-icons-wrap {
   display: flex;
   width: 10%;
+  align-items: center;
   justify-content: space-around;
+}
+
+.header-icon-link {
+  display: flex;
+  align-items: center;
 }
 
 .layout-header {
@@ -119,11 +133,107 @@
 }
 
 .nav-item--active {
-  color: #1d8796;
+  color: #754F44;
   opacity: 1;
 }
-/* LAYOUT CONTENT */
-.layout-content {
+
+/* LOGINFORM */
+.loginForm{
+  max-width: 540px;
+  margin-top: 0;
+  background-color: #FFFAE1;
+}
+
+.loginForm-title{
+  margin: 0;
+  font-weight: 700;
+}
+
+.loginForm-colorBlock{
+  margin: 10px 0 20px 0;
+  height: 10px;
+  width: 100%;
+  background-color: #FDD692;
+}
+
+input.ant-input{
+  margin-left: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 430px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  position:relative;
+}
+
+.ant-form-item-control-input{
+  height: 50px;
+}
+
+.ant-form-item-control-input-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-form-item-explain-error{
+  margin-left: 90px;
+}
+
+.login-form__button{
+  width: 180px;
+  height: 40px;
+  border: 0;
+  background-color: #FDD692;
+  border-radius: 10px;
+}
+
+.login-form__button:hover{
+  background-color: #ffab5d;
+}
+
+.loginForm-loginElse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+.loginForm-loginElse-btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm-loginElse-btn{
+  height: 35px;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 10px;
+  background-color: #c5c5c5;
+}
+
+.loginForm-loginElse-btn:hover{
+  background-color: #9e9e9e;
+}
+
+.loginForm-colorLine{
+  height: 3px;
+  width: 200px;
+  margin:0 10px;
+  background-color: #FF7A5B;
+}
+
+/* CONTENT */
+.layout-content{
+  min-height: 100vh;
   margin-top: 120px;
 }
 /* FOOTER */
+.footer {
+  width: 100%;
+}

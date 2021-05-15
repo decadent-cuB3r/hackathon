@@ -6,15 +6,15 @@ import AppFooter from "../components/Footer";
 const { Header, Content, Footer } = Layout;
 function News() {
   return (
-    <Layout className="container layout-main">
-      <Header className="layout-header">
-        <AppHeader />
-      </Header>
-      <Content className="layout-content"></Content>
-      <Footer className="layout-footer">
-        <AppFooter />
-      </Footer>
-    </Layout>
+    <>
+      <Layout className="container layout-main">
+        <Header className="layout-header">
+          <AppHeader />
+        </Header>
+        <Content className="layout-content"></Content>
+      </Layout>
+      <AppFooter />
+    </>
   );
 }
 

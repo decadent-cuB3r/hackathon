@@ -1,3 +1,24 @@
-export default function Home (){
+import { Layout } from "antd";
+import AppHeader from "../components/Header";
+import LoginForm from "../components/LoginForm"
+import AppFooter from "../components/Footer";
 
+const { Header, Content, Footer } = Layout;
+
+function Login (){
+  return (
+    <Layout className="container layout-main">
+      <Header className="layout-header">
+        <AppHeader />
+      </Header>
+      <Content className="layout-content">
+        <LoginForm />
+      </Content>
+      <Footer className="layout-footer">
+        <AppFooter />
+      </Footer>
+    </Layout>
+  );
 }
+
+export default Login;
