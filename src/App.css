@@ -1,6 +1,99 @@
 @import '~antd/dist/antd.css';
 
-/* LoginForm */
+/* RWD Container */
+.container {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+/* xxl */
+@media (min-width: 1600px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+
+/* HEADER */
+
+.header {
+  text-align: center;
+  height: auto;
+  color: #fff;
+}
+
+.header-wrap {
+  display: flex;
+  background-color: #fdd692;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-icons-Wrap {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+/* NAVBAR */
+.navBar-wrap {
+  width: 80%;
+  /* position: relative; */
+}
+.navBar {
+  display: flex;
+  /* position: relative; */
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: #fff;
+  opacity: 1;
+  font-size: 24px;
+  transition: opacity 0.25s linear;
+}
+
+.nav-item:hover {
+  opacity: 1;
+}
+
+.nav-item--active {
+  color: #1d8796;
+  opacity: 1;
+}
+
+/* LOGINFORM */
 .loginForm{
   max-width: 540px;
   margin-top: 0;
@@ -90,3 +183,5 @@ input.ant-input{
   margin:0 10px;
   background-color: #FF7A5B;
 }
+
+/* FOOTER */
