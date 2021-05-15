@@ -27,7 +27,7 @@
         "id": "sugar",
         "name": "糖",
         "image": "https://www.getldi.com/wp-content/uploads/2017/09/bigstock-Bowl-and-scoop-with-white-sand-180259339.jpg",
-        "quantifer": "tea spoon"
+        "quantifer": "大匙"
     },
     {
         "id": "soySauce",
@@ -80,19 +80,67 @@
     {
         "id": "vermicelli",
         "name": "麵線",
-        "image": "",
+        "image": "https://cf.shopee.tw/file/5da38007d3adae7c8fde03bbc2ca247f",
         "quantifer": "束"
     },
     {
         "id": "driedShiitake",
         "name": "乾香菇",
-        "image": "",
+        "image": "http://img.alicdn.com/i4/4092850974/O1CN01qwlyrL1J48O1CVGq0_!!4092850974.jpg",
         "quantifer": "朵"
     },
     {
         "id": "water",
         "name": "水",
-        "image": "",
+        "image": "https://hoganas.imagevault.media/publishedmedia/1gosmdbhm22ty0f6qi3q/shutterstock_658012429.jpg",
         "quantifer": "cc"
+    },
+    {
+        "id": "cucumber",
+        "name": "小黃瓜",
+        "image": "https://www.vandrunenfarms.com/filebin/images/products/full/Cucumber.jpg",
+        "quantifer": "條"
+    },
+    {
+        "id": "vinegar",
+        "name": "白醋",
+        "image": "https://cdn.cdnparenting.com/articles/2018/04/528721780-H.jpg",
+        "quantifer": "大匙"
+    },
+    {
+        "id": "chili",
+        "name": "辣椒",
+        "image": "https://imageproxy.icook.network/resize?height=533&width=800&nocrop=false&url=https%3A%2F%2Fuploads-blog.icook.network%2F2020%2F01%2Ff038bad1-1%EF%BC%88800%EF%BC%89-800x533.jpg&type=auto",
+        "quantifer": "根"
+    },
+    {
+        "id": "groundPork",
+        "name": "豬絞肉",
+        "image": "https://www.rt-mart.com.tw/website/uploads_product/website_1598/P0159800839234_1_1547210.png",
+        "quantifer": "g"
+    },
+    {
+        "id": "tofu",
+        "name": "豆腐",
+        "image": "https://s3-ap-southeast-1.amazonaws.com/zhonglingdev/resource/goods/5b56a70976ab2.jpg",
+        "quantifer": "盒"
+    },
+    {
+        "id": "sichuanPepper",
+        "name": "花椒",
+        "image": "https://img.ltn.com.tw/Upload/food/page/2018/03/29/180329-7329-1-8uwwP.jpg",
+        "quantifer": "g"
+    },
+    {
+        "id": "cornStarchWater",
+        "name": "太白粉水",
+        "image": "https://www.newton.com.tw/img/0/4bd/cGcq5CNycjZ1kDZxYDMlZDOwQDNmhzMjhzYxEDNykTZwMjZxgzM4IDOwYDMv0WZ0l2LjlGcvU2apFmYv02bj5SdklWYi5yYyN3Ztl2LvoDc0RHa.jpg",
+        "quantifer": "ml"
+    },
+    {
+        "id": "broadBeanPaste",
+        "name": "豆瓣醬",
+        "image": "https://www.u365.com.tw/website/uploads_product/website_1170/P0117000563880_1_2328039.jpg?_53687",
+        "quantifer": "大匙"
     }
 ]
