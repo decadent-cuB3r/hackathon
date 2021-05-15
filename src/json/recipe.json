@@ -183,8 +183,8 @@
       [ "riceWine","15" ],
       [ "salt","5" ],
       [ "cornFlour","5" ],
-      [ "granulatedSugar","30" ],
-      [ "whiteVinegar","30" ],
+      [ "sugar","2" ],
+      [ "vinegar","2" ],
       [ "water","60" ],
       [ "ketchup","60" ]
     ],
@@ -196,5 +196,70 @@
       "5.起鍋倒油爆香蒜末，加入番茄醬炒香，再倒入糖醋水拌勻，接著放入蔬菜炒勻、最後放入魚片快速拌勻後起鍋完成。"
     ],
     "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F356553%2Fa13c1097a956947b.jpg&width=443"
+  },
+  {
+    "id": "sesameOilEgg",
+    "name": "麻油麵線雞蛋煎",
+    "amount": "一人份",
+    "ingredients": [
+      [ "vermicelli","1" ],
+      [ "scallion","3" ],
+      [ "egg","1" ],
+      [ "sesameOil","45" ]
+    ],
+    "steps": [
+      "1.水煮熟的麵線瀝乾。",
+      "2.加入麻油拌勻下鍋整成薄薄圓餅狀，小火將第一面煎至金黃色約5-6分鐘，將鍋子倒扣於盤子取出麵線煎備用。",
+      "3.下蔥蛋之後，將麵線煎（未煎的那面）下鍋鋪於蛋液上續煎1-2分鐘至蛋表面酥香起鍋盛盤。",
+      "4.好吃的麻油雞蛋麵線煎就完成囉！"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369753%2F5d11e73630a35f66.jpg&width=443"
+  },
+  {
+    "id": "sweatAndSourPork",
+    "name": "糖醋排骨",
+    "amount": "二人份",
+    "ingredients": [
+      [ "pork","500" ],
+      [ "gingerSlice","6" ],
+      [ "soySauce","15" ],
+      [ "whiteVinegar","30" ],
+      [ "blackVinegar","30" ],
+      [ "sugar","30" ],
+      [ "water","300" ]
+    ],
+    "steps": [
+      "1.將豬小排以冷水入鍋，開大火滾5分鐘後將豬小排撈起沖冷水備用。",
+      "2.起另一熱鍋加入些許油、豬小排、醬油及糖開中火拌炒至豬小排上色。",
+      "3.加入一半的白醋及黑醋拌炒1分鐘。",
+      "4.加入清水和薑片後煮滾並蓋上鍋蓋開小火燉煮半小時。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F359095%2Fde6714dbc10c2f0f.jpg&width=443"
+  },
+  {
+    "id": "braisedSnapper",
+    "name": "紅燒鯛魚片",
+    "amount": "四人份",
+    "ingredients": [
+      [ "snapper","4" ],
+      [ "scallion","1" ],
+      [ "gingerSlice","2" ],
+      [ "garlic","2" ],
+      [ "soySauce","15" ],
+      [ "riceWine","15" ],
+      [ "sugar","20" ],
+      [ "salt","5" ]
+    ],
+    "steps": [
+      "1.將鯛魚片完全解凍，蔥·薑·蒜·辣椒·青蒜切末。",
+      "2.鯛魚片擦乾水份，在外層沾上一層薄薄的麵粉，沾完粉後輕拍魚片，讓多餘的粉末掉落。(魚片沾粉， 煎魚的時候比較不容易沾鍋)",
+      "3.放入熱油鍋中大火將兩面煎至金黃。",
+      "4.取出魚片。",
+      "5.將多餘的油倒出， 然後用熱鍋繼續炒香薑蒜辣椒末。",
+      "6.加入一碗水放入紅燒醬料: 醬油 3大匙 米酒一大匙 ，白醋和糖 一大匙， 少許鹽。將湯汁煮滾。",
+      "7.將魚片放入鍋中，中小火燉煮至湯汁快要收乾前，留下少許湯汁熄火。",
+      "8.盛出魚片將青蒜末倒入剩餘的湯汁中， 用小火拌炒10秒鐘，淋在魚片上即可。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369571%2Fbf1499545e9a0f2e.jpg&width=443"
   }
 ]

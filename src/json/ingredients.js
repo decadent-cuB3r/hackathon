@@ -170,37 +170,31 @@
     {
         "id": "snapper",
         "name": "鯛魚",
-        "image": "",
+        "image": "https://tshop.r10s.com/2d2/ea0/7ba2/7e51/9076/ae56/cfa0/11f7eaa5fa0242ac110002.jpg?_ex=460x460",
         "quantifer": "片"
     },
     {
         "id": "yellowBellPepper",
         "name": "黃甜椒",
-        "image": "",
+        "image": "https://www.7-11-seafood.com.tw/img/Product/old/33742200_s.jpg",
         "quantifer": "顆"
     },
     {
         "id": "cornFlour",
         "name": "玉米粉",
-        "image": "",
+        "image": "http://p0.itc.cn/images01/20200515/a64eb4d2286247398bcfcc9dbadbacfc.jpeg",
         "quantifer": "g"
-    },
-    {
-        "id": "granulatedSugar",
-        "name": "砂糖",
-        "image": "",
-        "quantifer": "g"
-    },
-    {
-        "id": "whiteVinegar",
-        "name": "白醋",
-        "image": "",
-        "quantifer": "ml"
     },
     {
         "id": "ketchup",
         "name": "番茄醬",
-        "image": "",
+        "image": "https://sc04.alicdn.com/kf/UTB8MYSuGJoSdeJk43Owq6ya4XXaa.jpg",
+        "quantifer": "ml"
+    },
+    {
+        "id": "blackVinegar",
+        "name": "黑醋",
+        "image": "https://s.yimg.com/zp/MerchandiseImages/4F4DBE735B-SP-8459817.jpg",
         "quantifer": "ml"
     }
 ]
