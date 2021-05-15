@@ -1,25 +1,28 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './App.css';
+import { StoreProvider } from './store';
+import Home from './pages/Home';
+import Cook from './pages/Cook';
+import News from './pages/News';
+import ShoppingGuide from './pages/ShoppingGuide';
+import PackageSubmission from './pages/PackageSubmission';
+import kagiInfo from './pages/KagiInfo';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          123456678
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <StoreProvider>
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={ Home }/>
+                    <Route path="/cook" component={Cook} />
+                    <Route path="/news" component={News} />
+                    <Route path="/shoppingguide" component={ShoppingGuide} />
+                    <Route path="/packagesubmission" component={PackageSubmission} />
+                    <Route path="/kagiinfo" component={kagiInfo} />
+                </Switch>
+            </BrowserRouter>
+        </StoreProvider>
+    );
 }
 
 export default App;
