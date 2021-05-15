@@ -175,6 +175,7 @@
   {
     "id": "sweatAndSourFish",
     "name": "糖醋魚",
+    "amount": "三人份",
     "ingredients": [
       [ "snapper","2" ],
       [ "onion","1/2" ],
