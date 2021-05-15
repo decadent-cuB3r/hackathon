@@ -8,17 +8,17 @@ const { Header, Content, Footer } = Layout;
 
 function Cook() {
   return (
-    <Layout className="container layout-main">
-      <Header className="layout-header">
-        <AppHeader />
-      </Header>
-      <Content className="layout-content">
-        <RecipeList recipes={recipes} />
-      </Content>
-      <Footer className="layout-footer">
-        <AppFooter />
-      </Footer>
-    </Layout>
+    <>
+      <Layout className="container layout-main">
+        <Header className="layout-header">
+          <AppHeader />
+        </Header>
+        <Content className="layout-content">
+          <RecipeList recipes={recipes} />
+        </Content>
+      </Layout>
+      <AppFooter />
+    </>
   );
 }
 

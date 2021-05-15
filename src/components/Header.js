@@ -24,14 +24,14 @@ function Header() {
           </div>
           <NavBar />
           <div className="header-icons-wrap">
-            <div>
-              <Link to="/">
+            <div className="header-icon">
+              <Link to="/" className="header-icon-link">
                 <UserIcon className="header-userIcon" />
               </Link>              
             </div>
 
-            <div>
-              <Link to="/">
+            <div className="header-icon">
+              <Link to="/" className="header-icon-link">
                 <BagIcon className="header-bagIcon" />
               </Link>
             </div>
