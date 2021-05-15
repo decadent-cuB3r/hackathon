@@ -24,6 +24,7 @@ export const loginToFirebase = async (dispatch, userInfo) => {
       type: SUCCESS_LOGIN_REQUEST,
       payload: user.user.providerData[0],
     })
+    console.log("success");
     return user;
   } catch (e) {
     dispatch({

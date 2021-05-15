@@ -43,7 +43,6 @@
   }
 }
 
-
 /* HEADER */
 
 .header {
@@ -182,6 +181,11 @@ input.ant-input{
   width: 200px;
   margin:0 10px;
   background-color: #FF7A5B;
+}
+
+/* CONTENT */
+.layout-content{
+  min-height: 100vh;
 }
 
 /* FOOTER */

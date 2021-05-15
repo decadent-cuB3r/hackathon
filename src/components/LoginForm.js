@@ -19,14 +19,14 @@ const LoginForm = () => {
 
 
   //email
-  firebase.auth()
-  .signInWithEmailAndPassword(email, password)
-  .then(result => {
-    console.log(result);
-  })
-  .catch(error => {
-  	console.log(error.message);
-  });
+  // firebase.auth()
+  // .signInWithEmailAndPassword(email, password)
+  // .then(result => {
+  //   console.log(result);
+  // })
+  // .catch(error => {
+  // 	console.log(error.message);
+  // });
 
   // google
   let provider = new firebase.auth.GoogleAuthProvider();

@@ -25,7 +25,7 @@ function Header() {
           <NavBar />
           <div className="header-icons-Wrap">
             <div>
-              <Link to="/">
+              <Link to="/login">
                 <UserIcon className="header-userIcon" />
               </Link>              
             </div>
