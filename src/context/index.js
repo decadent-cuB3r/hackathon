@@ -10,7 +10,7 @@ import {
     Compare_ITEM_REMOVE,
 } from "../utils/constants";
 
-export const StoreContext = createContext();
+export const CaGJUContext = createContext();
 
 let cartItems = localStorage.getItem("cartItems")
     ? JSON.parse(localStorage.getItem("cartItems"))
