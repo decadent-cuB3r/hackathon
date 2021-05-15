@@ -1,18 +1,28 @@
-import "./App.css";
-import { CaGJUProvider } from "./context";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './App.css';
+import { StoreProvider } from './store';
+import Home from './pages/Home';
+import Cook from './pages/Cook';
+import News from './pages/News';
+import ShoppingGuide from './pages/ShoppingGuide';
+import PackageSubmission from './pages/PackageSubmission';
+import kagiInfo from './pages/KagiInfo';
 
 function App() {
-  return (
-    <CaGJUProvider>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path = "/" component />
-          <Route />
-        </Switch>
-      </BrowserRouter>
-    </CaGJUProvider>
-  );
+    return (
+        <StoreProvider>
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={ Home }/>
+                    <Route path="/cook" component={Cook} />
+                    <Route path="/news" component={News} />
+                    <Route path="/shoppingguide" component={ShoppingGuide} />
+                    <Route path="/packagesubmission" component={PackageSubmission} />
+                    <Route path="/kagiinfo" component={kagiInfo} />
+                </Switch>
+            </BrowserRouter>
+        </StoreProvider>
+    );
 }
 
 export default App;
