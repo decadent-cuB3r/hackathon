@@ -2,22 +2,22 @@ import React, {useContext} from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
-// import { loginToFirebase } from '../actions'
-// import { StoreContext } from "../store"
+import { loginToFirebase } from '../actions'
+import { StoreContext } from "../store"
 
 const LoginForm = () => {
-  // const { state:{ userSignin: { loading, error } }, dispatch } = useContext(StoreContext);
+  const { state:{ userSignin: { loading, error } }, dispatch } = useContext(StoreContext);
   const [form] = Form.useForm();
-  // const history = useHistory();
+  const history = useHistory();
 
   const onFinishFailed = (errorInfo) => {
-  //   console.log('Failed: ', errorInfo.errorFields[0].errors[0])
+    console.log('Failed: ', errorInfo.errorFields[0].errors[0])
   };
   
   const onFinish = async (values) => {
-  //   console.log('Received values of form: ', values);
-  //   const auth = await loginToFirebase(dispatch, values);
-  //   auth && history.push("/profile");      
+    console.log('Received values of form: ', values);
+    const auth = await loginToFirebase(dispatch, values);
+    auth && history.push("/profile");      
   };
 
   return (
@@ -71,15 +71,15 @@ const LoginForm = () => {
 
           />
         </Form.Item>
-        <Form.Item>
-          {/* <Form.Item name="remember" valuePropName="checked" noStyle>
+        {/* <Form.Item>
+          <Form.Item name="remember" valuePropName="checked" noStyle>
             <Checkbox>Remember me</Checkbox>
-          </Form.Item> */}
+          </Form.Item>
           
-          {/* <Link className="login-form__forgot" to={"/"}>
+          <Link className="login-form__forgot" to={"/"}>
             Forgot password
-          </Link> */}
-        </Form.Item>
+          </Link>
+        </Form.Item> */}
 
         <Form.Item>
           {/* {loading ? ( */}
@@ -114,6 +114,30 @@ const LoginForm = () => {
           )} */}
         </Form.Item>
       </Form>
+      <div className="loginForm-loginElse">
+        <div className="loginForm-colorLine"></div>
+        <span>其他登入方式</span>
+        <div className="loginForm-colorLine"></div>
+      </div>
+      <div className="loginForm-loginElse-btns">
+        {/* <button>使用 Google 帳號登入</button> */}
+        <Button
+            type="primary"
+            htmlType="submit"
+            className="loginForm-loginElse-btn"
+            // loading
+          >
+            使用 Google 帳號登入
+        </Button>
+        <Button
+            type="primary"
+            htmlType="submit"
+            className="loginForm-loginElse-btn"
+            // loading
+          >
+            使用 Facebook 帳號登入
+        </Button>
+      </div>
     </div>
   );
 };

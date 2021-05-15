@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 /* LoginForm */
 .loginForm{
   max-width: 540px;
@@ -27,21 +29,59 @@ input.ant-input{
   position:relative;
 }
 
+.ant-form-item-control-input{
+  height: 50px;
+}
+
 .ant-form-item-control-input-content{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 
-/* .ant-input-suffix{
-  position:absolute;
-} */
+.ant-form-item-explain-error{
+  margin-left: 90px;
+}
 
 .login-form__button{
   width: 180px;
   height: 40px;
   border: 0;
   background-color: #FDD692;
-  border-radius: 9px;
+  border-radius: 10px;
+}
+
+.login-form__button:hover{
+  background-color: #ffab5d;
+}
+
+.loginForm-loginElse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+.loginForm-loginElse-btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm-loginElse-btn{
+  height: 35px;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 10px;
+  background-color: #c5c5c5;
+}
+
+.loginForm-colorLine{
+  height: 3px;
+  width: 200px;
+  margin:0 10px;
+  background-color: #FF7A5B;
 }
