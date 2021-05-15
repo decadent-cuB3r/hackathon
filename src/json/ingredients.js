@@ -202,5 +202,11 @@
         "name": "番茄醬",
         "image": "",
         "quantifer": "ml"
-    }
+    },
+    {
+        "id": "blackVinegar",
+        "name": "黑醋",
+        "image": "",
+        "quantifer": "ml"
+    },
 ]
