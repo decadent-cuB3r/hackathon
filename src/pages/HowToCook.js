@@ -3,7 +3,7 @@ import AppHeader from "../components/Header";
 import NavBar from "../components/NavBar";
 import AppFooter from "../components/Footer";
 import RecipeList from "../components/RecipeList";
-import recipes from "../json/recipe.json";
+import recipes from "../json/recipes.json";
 const { Header, Content, Footer } = Layout;
 
 function Cook({ match }) {

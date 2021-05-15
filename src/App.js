@@ -10,7 +10,6 @@ import Cart from './pages/Cart';
 import ShoppingGuide from './pages/ShoppingGuide';
 import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
-import Recipe from './pages/Recipe';
 
 function App() {
   return (

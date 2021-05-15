@@ -6,6 +6,6 @@ import Image2 from '../images/HomeIntro/freshEgg'
 
 export default function HomeIntro(){
     return(
-
+        
     );
 }
