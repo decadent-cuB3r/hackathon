@@ -4,14 +4,14 @@
     "name": "三杯雞",
     "amount": "四人份",
     "ingredients": [
-      [ "chickenLeg", "4" ],
-      [ "gingerSlice", "10" ],
-      [ "garlic", "10" ],
-      [ "sesameOil", "120" ],
-      [ "sugar", "2" ],
-      [ "soySauce", "120" ],
-      [ "riceWine", "120" ],
-      [ "basil", "1" ]
+      ["chickenLeg", "4"],
+      ["gingerSlice", "10"],
+      ["garlic", "10"],
+      ["sesameOil", "120"],
+      ["sugar", "2"],
+      ["soySauce", "120"],
+      ["riceWine", "120"],
+      ["basil", "1"]
     ],
     "steps": [
       "1.將雞腿剁小塊.",
@@ -26,12 +26,12 @@
     "name": "菜脯蛋",
     "amount": "三人份",
     "ingredients": [
-      [ "egg","3" ],
-      [ "scallion","1" ],
-      [ "driedRadish","25" ],
-      [ "salt","1" ],
-      [ "pepper","1" ],
-      [ "bonitoSauce","1" ]
+      ["egg", "3"],
+      ["scallion", "1"],
+      ["driedRadish", "25"],
+      ["salt", "1"],
+      ["pepper", "1"],
+      ["bonitoSauce", "1"]
     ],
     "steps": [
       "1.菜脯用清水搓揉洗乾淨，壓乾水分切末，蔥切成蔥花。蛋和蔥花混合，加入鹽、鰹魚醬油、胡椒粉，攪拌均勻備用。",
@@ -58,5 +58,24 @@
       "4.好吃的麻油雞蛋麵線煎就完成囉！"
     ],
     "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369753%2F5d11e73630a35f66.jpg&width=443"
+  },
+  {
+    "id": "chickenGarlicSoup",
+    "name": "蒜頭香菇幾湯",
+    "amount": "二人份",
+    "ingredients": [
+      ["chickenLeg", "2"],
+      ["driedShiitake", "10"],
+      ["garlic", "10"]
+    ],
+    "steps": [
+        "1.乾香菇洗淨後用300cc熱開水浸泡，軟化後撈起擠乾備用，香菇水留下來運用。",
+        "2.中火熱油鍋將蒜頭爆香至略為金黃後立馬撈起備用。",
+        "3.將撈起的蒜頭浸泡香菇水。",
+        "4.將剛爆香完的蒜頭油，再次爆香香菇，這二樣都中小火爆即可，食材味道才不會因爆香過烈可惜了。",
+        "5.雞腿肉要先以熱開水汆燙後放入略為拌炒至熱氣上升後，加入步驟三的蒜頭香菇水，再加入熱開水準備燉煮，您可移至電鍋以一杯水外鍋燉，或是如我的作法用湯鍋小火悶燉。",
+        "6.湯頭要好喝就是過程都不要好奇去開鍋:joy:把握好時間及中小火慢燉就對了，燉上約30分後，開鍋調味就行囉。"
+    ],
+    "image": "https://tokyo-kitchen.icook.network/uploads/recipe/cover/328980/f591b7fd14dbdf8c.jpg"
   }
 ]

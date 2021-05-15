@@ -82,5 +82,17 @@
         "name": "麵線",
         "image": "",
         "quantifer": "束"
+    },
+    {
+        "id": "driedShiitake",
+        "name": "乾香菇",
+        "image": "",
+        "quantifer": "朵"
+    },
+    {
+        "id": "water",
+        "name": "水",
+        "image": "",
+        "quantifer": "cc"
     }
 ]
