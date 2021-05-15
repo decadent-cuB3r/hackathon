@@ -4,14 +4,14 @@
     "name": "三杯雞",
     "amount": "四人份",
     "ingredients": [
-      { "chickenLeg": "4" },
-      { "gingerSlice": "10" },
-      { "garlic": "10" },
-      { "sesameOil": "120" },
-      { "sugar": "2" },
-      { "soySauce": "120" },
-      { "riceWine": "120" },
-      { "basil": "1" }
+      [ "chickenLeg", "4" ],
+      [ "gingerSlice", "10" ],
+      [ "garlic", "10" ],
+      [ "sesameOil", "120" ],
+      [ "sugar", "2" ],
+      [ "soySauce", "120" ],
+      [ "riceWine", "120" ],
+      [ "basil", "1" ]
     ],
     "steps": [
       "1.將雞腿剁小塊.",
@@ -25,12 +25,12 @@
     "id": "preservedRadishomelette",
     "name": "菜脯蛋",
     "ingredients": [
-      { "egg":"3" },
-      { "scallion":"1" },
-      { "driedRadish":"25" },
-      { "salt":"1" },
-      { "pepper":"1" },
-      { "bonitoSauce":"1" }
+      [ "egg","3" ],
+      [ "scallion","1" ],
+      [ "driedRadish","25" ],
+      [ "salt","1" ],
+      [ "pepper","1" ],
+      [ "bonitoSauce","1" ]
     ],
     "steps": [
       "1.菜脯用清水搓揉洗乾淨，壓乾水分切末，蔥切成蔥花。蛋和蔥花混合，加入鹽、鰹魚醬油、胡椒粉，攪拌均勻備用。",
