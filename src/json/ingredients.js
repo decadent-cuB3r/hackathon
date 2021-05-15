@@ -112,5 +112,41 @@
         "name": "味醂",
         "image": "",
         "quantifer": "湯匙"
+    },
+    {
+        "id": "snapper",
+        "name": "鯛魚",
+        "image": "",
+        "quantifer": "片"
+    },
+    {
+        "id": "yellowBellPepper",
+        "name": "黃甜椒",
+        "image": "",
+        "quantifer": "顆"
+    },
+    {
+        "id": "cornFlour",
+        "name": "玉米粉",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "granulatedSugar",
+        "name": "砂糖",
+        "image": "",
+        "quantifer": "g"
+    },
+    {
+        "id": "whiteVinegar",
+        "name": "白醋",
+        "image": "",
+        "quantifer": "ml"
+    },
+    {
+        "id": "ketchup",
+        "name": "番茄醬",
+        "image": "",
+        "quantifer": "ml"
     }
 ]
