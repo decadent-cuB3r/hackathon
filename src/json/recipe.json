@@ -83,5 +83,47 @@
         "6.湯頭要好喝就是過程都不要好奇去開鍋:joy:把握好時間及中小火慢燉就對了，燉上約30分後，開鍋調味就行囉。"
     ],
     "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F372610%2F6e8a7be53cac4d29.jpg&width=443"
+  },
+  {
+      "id": "gingerPork",
+      "name": "薑汁燒肉",
+      "amount": "二人份",
+      "ingredients": [
+          ["pork", "200"],
+          ["gingerSlice", "5"],
+          ["garlic", "2.5"],
+          ["soySauce", "30"],
+          ["sugar", "1"],
+          ["water", "10"]
+      ],
+      "steps": [
+        "1.將薑末、蒜末、醬油、砂糖、水製成醃料，倒入豬肉片中醃5分鐘（也可以事先醃好）。",
+        "2.熱油鍋後放入豬肉片。",
+        "3.一面煎至變白色後翻面淋上「調味」繼續煎。",
+        "4.煮至豬肉熟透即可上桌。",
+        "5.可依個人喜好灑上白芝麻及蔥末。"
+      ],
+      "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F303665%2F363059cb1c0abe6b.jpg&width=443"
+  },
+  {
+      "id": "friedOysterMushroom",
+      "name": "酥炸杏苞菇",
+      "amount": "二人份",
+      "ingredients": [
+          ["kingOysterMushroom", "400"],
+          ["pepper", "10"],
+          ["low-glutenFlour", "70"],
+          ["yolk", "1"],
+          ["water", "100"]
+      ],
+      "steps": [
+        "1.杏鮑菇用廚房紙巾擦拭乾淨後切滾刀塊狀。",
+        "2.在鍋中加入粉漿材料（低粉70g、蛋黃1顆、水100g、胡椒粉適量）攪拌均勻。",
+        "3.油鍋加熱至粉漿滴入後直接浮起，即可將杏鮑菇加入粉漿中沾附粉漿。",
+        "4.下鍋油炸（因為我的炸鍋較小，粉漿彼此會黏在一起，可使用筷子分開），杏鮑菇以中火炸至金黃色即可起鍋瀝油。",
+        "5.在炸的過程中會有小小粉漿脫落，要不定時用撈網撈起，才不會炸到焦掉。",
+        "6.在炸好的杏鮑菇上撒適量的胡椒粉，香酥杏鮑菇即可上桌。"
+      ],
+      "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F339232%2Fa462dd2889b423b8.jpg&width=443"
   }
 ]
