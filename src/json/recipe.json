@@ -75,60 +75,107 @@
       ["sweetSake", "2"]
     ],
     "steps": [
-        "1.乾香菇洗淨後用300cc熱開水浸泡，軟化後撈起擠乾備用，香菇水留下來運用。",
-        "2.中火熱油鍋將蒜頭爆香至略為金黃後立馬撈起備用。",
-        "3.將撈起的蒜頭浸泡香菇水。",
-        "4.將剛爆香完的蒜頭油，再次爆香香菇，這二樣都中小火爆即可，食材味道才不會因爆香過烈可惜了。",
-        "5.雞腿肉要先以熱開水汆燙後放入略為拌炒至熱氣上升後，加入步驟三的蒜頭香菇水，再加入熱開水準備燉煮，您可移至電鍋以一杯水外鍋燉，或是如我的作法用湯鍋小火悶燉。",
-        "6.湯頭要好喝就是過程都不要好奇去開鍋:joy:把握好時間及中小火慢燉就對了，燉上約30分後，開鍋調味就行囉。"
+      "1.乾香菇洗淨後用300cc熱開水浸泡，軟化後撈起擠乾備用，香菇水留下來運用。",
+      "2.中火熱油鍋將蒜頭爆香至略為金黃後立馬撈起備用。",
+      "3.將撈起的蒜頭浸泡香菇水。",
+      "4.將剛爆香完的蒜頭油，再次爆香香菇，這二樣都中小火爆即可，食材味道才不會因爆香過烈可惜了。",
+      "5.雞腿肉要先以熱開水汆燙後放入略為拌炒至熱氣上升後，加入步驟三的蒜頭香菇水，再加入熱開水準備燉煮，您可移至電鍋以一杯水外鍋燉，或是如我的作法用湯鍋小火悶燉。",
+      "6.湯頭要好喝就是過程都不要好奇去開鍋:joy:把握好時間及中小火慢燉就對了，燉上約30分後，開鍋調味就行囉。"
     ],
-    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F372610%2F6e8a7be53cac4d29.jpg&width=443"
+    "image": "https://tokyo-kitchen.icook.network/uploads/recipe/cover/328980/f591b7fd14dbdf8c.jpg"
   },
   {
-      "id": "gingerPork",
-      "name": "薑汁燒肉",
-      "amount": "二人份",
-      "ingredients": [
-          ["pork", "200"],
-          ["gingerSlice", "5"],
-          ["garlic", "2.5"],
-          ["soySauce", "30"],
-          ["sugar", "1"],
-          ["water", "10"]
-      ],
-      "steps": [
-        "1.將薑末、蒜末、醬油、砂糖、水製成醃料，倒入豬肉片中醃5分鐘（也可以事先醃好）。",
-        "2.熱油鍋後放入豬肉片。",
-        "3.一面煎至變白色後翻面淋上「調味」繼續煎。",
-        "4.煮至豬肉熟透即可上桌。",
-        "5.可依個人喜好灑上白芝麻及蔥末。"
-      ],
-      "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F303665%2F363059cb1c0abe6b.jpg&width=443"
+    "id": "CucumberSalad",
+    "name": "涼拌小黃瓜",
+    "amount": "二人份",
+    "ingredients": [
+      ["cucumber", "5"],
+      ["salt", "1"],
+      ["vinegar", "3"],
+      ["sugar", "3"],
+      ["chili", "1"]
+    ],
+    "steps": [
+      "1.小黃瓜切薄片，加鹽抓醃殺青10分鐘。",
+      "2.以食用水清洗後擰乾。",
+      "3.加入糖/醋/辣椒，放置於冰箱30分鐘即完成。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F370052%2F30fb494b02673f88.jpg&width=443"
   },
   {
-      "id": "friedOysterMushroom",
-      "name": "酥炸杏苞菇",
-      "amount": "二人份",
-      "ingredients": [
-          ["kingOysterMushroom", "400"],
-          ["pepper", "10"],
-          ["low-glutenFlour", "70"],
-          ["yolk", "1"],
-          ["water", "100"]
-      ],
-      "steps": [
-        "1.杏鮑菇用廚房紙巾擦拭乾淨後切滾刀塊狀。",
-        "2.在鍋中加入粉漿材料（低粉70g、蛋黃1顆、水100g、胡椒粉適量）攪拌均勻。",
-        "3.油鍋加熱至粉漿滴入後直接浮起，即可將杏鮑菇加入粉漿中沾附粉漿。",
-        "4.下鍋油炸（因為我的炸鍋較小，粉漿彼此會黏在一起，可使用筷子分開），杏鮑菇以中火炸至金黃色即可起鍋瀝油。",
-        "5.在炸的過程中會有小小粉漿脫落，要不定時用撈網撈起，才不會炸到焦掉。",
-        "6.在炸好的杏鮑菇上撒適量的胡椒粉，香酥杏鮑菇即可上桌。"
-      ],
-      "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F339232%2Fa462dd2889b423b8.jpg&width=443"
-    },
-    {
+    "id": "mapoTofu",
+    "name": "麻婆豆腐",
+    "amount": "二人份",
+    "ingredients": [
+      ["groundPork", "100"],
+      ["tofu", "2"],
+      ["garlic", "6"],
+      ["chili", "1"],
+      ["sichuanPepper","30"],
+      ["scallion","1" ],
+      ["salt","1"],
+      ["soySauce","8"],
+      ["cornStarchWater","50"],
+      ["broadBeanPaste","2"]
+    ],
+    "steps": [
+      "1.豆腐切塊洗淨泡鹽水備用，蒜頭切碎，辣椒切末，花椒壓碎。",
+      "2.冷油下花椒小火煸出花椒香氣。",
+      "3.濾出花椒油備用。",
+      "4.熱鍋加油下絞肉炒散炒香。",
+      "5.倒入蒜碎、辣椒末翻炒。",
+      "6.加入豆瓣醬翻炒。",
+      "7.加入水，待水滾後下豆腐、下調味收汁。",
+      "8.勾芡後鍋邊淋入花椒油後出盤，撒上蔥花即可。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F372449%2F282ef817c78db182.jpg&width=443"
+  },
+  {
+    "id": "gingerPork",
+    "name": "薑汁燒肉",
+    "amount": "二人份",
+    "ingredients": [
+        ["pork", "200"],
+        ["gingerSlice", "5"],
+        ["garlic", "2.5"],
+        ["soySauce", "30"],
+        ["sugar", "1"],
+        ["water", "10"]
+    ],
+    "steps": [
+      "1.將薑末、蒜末、醬油、砂糖、水製成醃料，倒入豬肉片中醃5分鐘（也可以事先醃好）。",
+      "2.熱油鍋後放入豬肉片。",
+      "3.一面煎至變白色後翻面淋上「調味」繼續煎。",
+      "4.煮至豬肉熟透即可上桌。",
+      "5.可依個人喜好灑上白芝麻及蔥末。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F303665%2F363059cb1c0abe6b.jpg&width=443"
+  },
+  {
+    "id": "friedOysterMushroom",
+    "name": "酥炸杏苞菇",
+    "amount": "二人份",
+    "ingredients": [
+        ["kingOysterMushroom", "400"],
+        ["pepper", "10"],
+        ["low-glutenFlour", "70"],
+        ["yolk", "1"],
+        ["water", "100"]
+    ],
+    "steps": [
+      "1.杏鮑菇用廚房紙巾擦拭乾淨後切滾刀塊狀。",
+      "2.在鍋中加入粉漿材料（低粉70g、蛋黃1顆、水100g、胡椒粉適量）攪拌均勻。",
+      "3.油鍋加熱至粉漿滴入後直接浮起，即可將杏鮑菇加入粉漿中沾附粉漿。",
+      "4.下鍋油炸（因為我的炸鍋較小，粉漿彼此會黏在一起，可使用筷子分開），杏鮑菇以中火炸至金黃色即可起鍋瀝油。",
+      "5.在炸的過程中會有小小粉漿脫落，要不定時用撈網撈起，才不會炸到焦掉。",
+      "6.在炸好的杏鮑菇上撒適量的胡椒粉，香酥杏鮑菇即可上桌。"
+    ],
+    "image": "https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F339232%2Fa462dd2889b423b8.jpg&width=443"
+  },
+  {
     "id": "sweatAndSourFish",
     "name": "糖醋魚",
+    "amount": "三人份",
     "ingredients": [
       [ "snapper","2" ],
       [ "onion","1/2" ],
@@ -150,5 +197,52 @@
       "5.起鍋倒油爆香蒜末，加入番茄醬炒香，再倒入糖醋水拌勻，接著放入蔬菜炒勻、最後放入魚片快速拌勻後起鍋完成。"
     ],
     "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F356553%2Fa13c1097a956947b.jpg&width=443"
+  },
+  {
+    "id": "sweatAndSourPork",
+    "name": "糖醋排骨",
+    "amount": "二人份",
+    "ingredients": [
+      [ "pork","500" ],
+      [ "gingerSlice","6" ],
+      [ "soySauce","15" ],
+      [ "whiteVinegar","30" ],
+      [ "blackVinegar","30" ],
+      [ "sugar","30" ],
+      [ "water","300" ]
+    ],
+    "steps": [
+      "1.將豬小排以冷水入鍋，開大火滾5分鐘後將豬小排撈起沖冷水備用。",
+      "2.起另一熱鍋加入些許油、豬小排、醬油及糖開中火拌炒至豬小排上色。",
+      "3.加入一半的白醋及黑醋拌炒1分鐘。",
+      "4.加入清水和薑片後煮滾並蓋上鍋蓋開小火燉煮半小時。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F359095%2Fde6714dbc10c2f0f.jpg&width=443"
+  },
+  {
+    "id": "braisedSnapper",
+    "name": "紅燒鯛魚片",
+    "amount": "四人份",
+    "ingredients": [
+      [ "snapper","4" ],
+      [ "scallion","1" ],
+      [ "gingerSlice","2" ],
+      [ "garlic","2" ],
+      [ "soySauce","15" ],
+      [ "riceWine","15" ],
+      [ "sugar","20" ],
+      [ "salt","5" ]
+    ],
+    "steps": [
+      "1.將鯛魚片完全解凍，蔥·薑·蒜·辣椒·青蒜切末。",
+      "2.鯛魚片擦乾水份，在外層沾上一層薄薄的麵粉，沾完粉後輕拍魚片，讓多餘的粉末掉落。(魚片沾粉， 煎魚的時候比較不容易沾鍋)",
+      "3.放入熱油鍋中大火將兩面煎至金黃。",
+      "4.取出魚片。",
+      "5.將多餘的油倒出， 然後用熱鍋繼續炒香薑蒜辣椒末。",
+      "6.加入一碗水放入紅燒醬料: 醬油 3大匙 米酒一大匙 ，白醋和糖 一大匙， 少許鹽。將湯汁煮滾。",
+      "7.將魚片放入鍋中，中小火燉煮至湯汁快要收乾前，留下少許湯汁熄火。",
+      "8.盛出魚片將青蒜末倒入剩餘的湯汁中， 用小火拌炒10秒鐘，淋在魚片上即可。"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369571%2Fbf1499545e9a0f2e.jpg&width=443"
   }
 ]
