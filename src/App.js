@@ -9,20 +9,20 @@ import PackageSubmission from './pages/PackageSubmission';
 import kagiInfo from './pages/KagiInfo';
 
 function App() {
-    return (
-        <StoreProvider>
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path="/" component={ Home }/>
-                    <Route path="/cook" component={Cook} />
-                    <Route path="/news" component={News} />
-                    <Route path="/shoppingguide" component={ShoppingGuide} />
-                    <Route path="/packagesubmission" component={PackageSubmission} />
-                    <Route path="/kagiinfo" component={kagiInfo} />
-                </Switch>
-            </BrowserRouter>
-        </StoreProvider>
-    );
+  return (
+    <StoreProvider>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/cook" component={Cook} />
+          <Route path="/news" component={News} />
+          <Route path="/shoppingguide" component={ShoppingGuide} />
+          <Route path="/packagesubmission" component={PackageSubmission} />
+          <Route path="/kagiinfo" component={kagiInfo} />
+        </Switch>
+      </BrowserRouter>
+    </StoreProvider>
+  );
 }
 
 export default App;
