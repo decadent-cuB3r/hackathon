@@ -6,7 +6,7 @@ import { CartIcon } from "./Icons";
 import { addCartItem, removeCartItem, setProductDetail } from "../actions";
 const { Option } = Select;
 
-export default function Cart({ isModalVisible, toggleModal }) {
+export default function Cart() {
   const {
     state: { cartItems },
     dispatch,

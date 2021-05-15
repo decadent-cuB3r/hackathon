@@ -1,11 +1,17 @@
+import { useContext, useEffect } from "react";
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
-import LoginForm from "../components/LoginForm";
 import AppFooter from "../components/Footer";
+import RecipeDetail from "../components/RecipeDetail";
+import { setRecipeDetail } from "../actions";
+import { StoreContext } from "../store";
 
 const { Header, Content, Footer } = Layout;
 
-function Login() {
+function Recipe({ match }) {
+  const { dispatch } = useContext(StoreContext);
+  useEffect(() => setRecipeDetail(dispatch, match.params.recipeId, 0), []);
+
   return (
     <>
       <Layout className="container layout-main">
@@ -13,7 +19,7 @@ function Login() {
           <AppHeader />
         </Header>
         <Content className="layout-content">
-          <LoginForm />
+          {/* <RecipeDetail /> */}
         </Content>
       </Layout>
       <AppFooter />
@@ -21,4 +27,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Recipe;
