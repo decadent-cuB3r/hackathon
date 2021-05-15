@@ -1,51 +1,87 @@
-/* GENERAL */
-.Row{
+@import '~antd/dist/antd.css';
+
+/* RWD Container */
+.container {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  align-self: center;
+  margin: auto;
 }
-.Col{
-  width: max-content;
+
+/* sm */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
 }
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+/* xxl */
+@media (min-width: 1600px) {
+  .container {
+    width: 1500px;
+  }
+}
+
 
 /* HEADER */
 
 .header {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .header-wrap {
-    display: flex;
-    padding-top: 2rem;
-    position: relative;
-    background-color: #FDD692;
+  display: flex;
+  padding-top: 2rem;
+  position: relative;
+  background-color: #fdd692;
 }
 /* NAVBAR */
 .navBar-wrap {
-    width: 100%;
-    position: relative;
-    
+  width: 100%;
+  position: relative;
 }
 .navBar {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
 }
 
 .nav-item {
-    color: #fff;
-    opacity: 1;
-    font-size: 24px;
-    transition: opacity .25s linear;
+  color: #fff;
+  opacity: 1;
+  font-size: 24px;
+  transition: opacity 0.25s linear;
 }
 
 .nav-item:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .nav-item--active {
-    color: #1d8796;
-    opacity: 1;
+  color: #1d8796;
+  opacity: 1;
 }
 
 /* FOOTER */
