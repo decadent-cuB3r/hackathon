@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { StoreContext } from "../store";
 import { activeNavItemSet } from "../actions";
+import NavBar from "../components/NavBar";
 
 function Header() {
   const { dispatch } = useContext(StoreContext);
@@ -11,10 +12,11 @@ function Header() {
   return (
     <>
       <header className="header">
-        <div className="header__wrap">
+        <div className="header-wrap">
           <div className="header-logo" onClick={onClickHeader}>
             <Link to="/"></Link>
           </div>
+					<NavBar />
         </div>
       </header>
     </>
