@@ -1,3 +1,5 @@
+import firebase from "firebase/app";
+import "firebase/auth";
 import React, {useContext, useEffect} from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Form, Input, Button, Checkbox } from 'antd';
@@ -14,6 +16,40 @@ const LoginForm = () => {
     console.log('Received values of form: ', values);
     await loginToFirebase(dispatch, values);
   };
+
+
+  //email
+  firebase.auth()
+  .signInWithEmailAndPassword(email, password)
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+  	console.log(error.message);
+  });
+
+  // google
+  let provider = new firebase.auth.GoogleAuthProvider();
+  const googleOnClick = () =>{
+    document.getElementById('googleSignIn').onclick = function() {
+      firebase.auth().signInWithPopup(provider).then(function(result) {
+        // 可以獲得 Google 提供 token，token可透過 Google API 獲得其他數據。  
+        var token = result.credential.accessToken;
+        var user = result.user;
+      });  
+    }
+  }
+
+  // facebook
+  let providerF = new firebase.auth.FacebookAuthProvider();
+  const fbOnClick = () =>{
+    document.getElementById('fbSignIn').onclick = function() {
+      firebase.auth().signInWithPopup(providerF).then(function(result) {
+        var token = result.credential.accessToken;      
+        var user = result.user;
+      })
+    }
+  }
 
   // const onChange = e => {
   //   rememberLoginUser(dispatch, e.target.checked);
@@ -124,20 +160,24 @@ const LoginForm = () => {
       <div className="loginForm-loginElse-btns">
         {/* <button>使用 Google 帳號登入</button> */}
         <Button
-            type="primary"
-            htmlType="submit"
-            className="loginForm-loginElse-btn"
-            // loading
-          >
-            使用 Google 帳號登入
+          id="googleSignIn"
+          type="primary"
+          htmlType="submit"
+          className="loginForm-loginElse-btn"
+          onClick={googleOnClick}
+          // loading
+        >
+          使用 Google 帳號登入
         </Button>
         <Button
-            type="primary"
-            htmlType="submit"
-            className="loginForm-loginElse-btn"
-            // loading
-          >
-            使用 Facebook 帳號登入
+          id="fbSignIn"
+          type="primary"
+          htmlType="submit"
+          className="loginForm-loginElse-btn"
+          onClick={fbOnClick}
+          // loading
+        >
+          使用 Facebook 帳號登入
         </Button>
       </div>
     </div>
