@@ -10,7 +10,6 @@ function News() {
       <Header className="layout-header">
         <AppHeader />
       </Header>
-      <NavBar />
       <Content className="layout-content"></Content>
       <Footer className="layout-footer">
         <AppFooter />

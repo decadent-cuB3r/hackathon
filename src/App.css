@@ -10,9 +10,19 @@
     position: relative;
     background-color: #FDD692;
 }
+
+.header-icons-Wrap {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.header-userIcon {
+    margin-left: 60px;
+}
 /* NAVBAR */
 .navBar-wrap {
-    width: 100%;
+    width: 80%;
     position: relative;
     
 }

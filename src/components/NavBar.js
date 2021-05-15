@@ -55,13 +55,6 @@ export default function NavBar() {
         >
           認識咖雞
         </NavItem>
-				<NavItem
-          to="/kagiinfo"
-          className="nav-item"
-          activeClassName="nav-item--active"
-        >
-          
-        </NavItem>
       </div>
     </div>
   );
