@@ -2,10 +2,9 @@ import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import NavBar from "../components/NavBar";
 import AppFooter from "../components/Footer";
-import RecipeList from "../components/RecipeList"
-import recipes from "../json/recipe.json"
+import RecipeList from "../components/RecipeList";
+import recipes from "../json/recipe.json";
 const { Header, Content, Footer } = Layout;
-
 
 function Cook() {
   return (
@@ -13,9 +12,8 @@ function Cook() {
       <Header className="layout-header">
         <AppHeader />
       </Header>
-      <NavBar />
       <Content className="layout-content">
-    <RecipeList recipes = {recipes} />
+        <RecipeList recipes={recipes} />
       </Content>
       <Footer className="layout-footer">
         <AppFooter />

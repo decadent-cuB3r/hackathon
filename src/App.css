@@ -48,14 +48,17 @@
 
 .header {
   text-align: center;
+  height: auto;
   color: #fff;
 }
 
 .header-wrap {
   display: flex;
-  padding-top: 2rem;
-  position: relative;
   background-color: #fdd692;
+}
+
+.header-logo {
+  display: flex;
 }
 
 .header-icons-Wrap {
@@ -63,21 +66,14 @@
     width: 10%;
     justify-content: space-around;
 }
-
-.header-userIcon {
-    margin-left: 60px;
-}
 /* NAVBAR */
 .navBar-wrap {
-    width: 80%;
-    position: relative;
-    
-  width: 100%;
-  position: relative;
+  width: 80%;
+  /* position: relative; */
 }
 .navBar {
   display: flex;
-  position: relative;
+  /* position: relative; */
   justify-content: space-around;
 }
 
