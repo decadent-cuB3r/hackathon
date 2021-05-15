@@ -1,8 +1,8 @@
 import { Descriptions, Row, Col } from "antd"
 import { icons } from "antd/lib/image/PreviewGroup"
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <footer>
             <Row>
                 <Col justify="right" align="top">
