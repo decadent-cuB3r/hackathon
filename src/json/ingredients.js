@@ -38,43 +38,49 @@
     {
         "id": "riceWine",
         "name": "米酒",
-        "image": "",
-        "quantifer": ""
+        "image": "https://www.alcohol.com.tw/upload/catalog_list_pic/twl_catalog_20i04_z2ee5qyt6m.png",
+        "quantifer": "ml"
     },
     {
         "id": "egg",
         "name": "雞蛋",
-        "image": "",
+        "image": "https://solidstarts.com/wp-content/uploads/when-can-babies-eat-eggs-480x320.jpg",
         "quantifer": "顆"
     },
     {
         "id": "scallion",
         "name": "蔥",
-        "image": "",
+        "image": "https://pixfeeds.com/images/herbs-spices/1280-584247502-green-onion.jpg",
         "quantifer": "支"
     },
     {
         "id": "driedRadish",
         "name": "菜脯",
-        "image": "",
+        "image": "https://top1cdn.top1health.com/cdn/am/57122/133633.jpg",
         "quantifer": "g"
     },
     {
         "id": "salt",
         "name": "鹽",
-        "image": "",
+        "image": "https://d836lkh8rtxff.cloudfront.net/1124327822964513/original/fcf39b00-b6e9-11ea-a6d4-25af6507f0e9-859.jpeg",
         "quantifer": "g"
     },
     {
         "id": "pepper",
         "name": "胡椒粉",
-        "image": "",
+        "image": "https://lh3.googleusercontent.com/proxy/Yu3bnPzdtKhwRT_AKrprINaW_7cAww1dCfU5Uex6rWY7LvW1HhHYRmjiUphRLCcqyO6ZC2P8LF-8xyHuW_DaDVSELhNtHwXyPOVPwgqHvYif9KaZblUT6TA",
         "quantifer": "g"
     },
     {
         "id": "bonitoSauce",
         "name": "鰹魚醬油",
-        "image": "",
+        "image": "https://lh3.googleusercontent.com/proxy/TpM0r0cBmU7nBqBr3gXGig9fOArvNA1gs-YYsM4JqE37IQSNYQsVoMGKmNxjEGjaa5A_ZOTaCkA-WrADT_pqnBHYqJBhNrGF5dmSyfsBGj6S0zwulPVhvrK6zi1CfgZHVOSFwD7T8RhPVf2LKvcA1g",
         "quantifer": "g"
+    },
+    {
+        "id": "vermicelli",
+        "name": "麵線",
+        "image": "",
+        "quantifer": "束"
     }
 ]

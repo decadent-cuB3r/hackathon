@@ -24,6 +24,7 @@
   {
     "id": "preservedRadishomelette",
     "name": "菜脯蛋",
+    "amount": "三人份",
     "ingredients": [
       [ "egg","3" ],
       [ "scallion","1" ],
@@ -39,5 +40,23 @@
       "4.兩面煎焦香後就可以起鍋了。"
     ],
     "image":"https://tokyo-kitchen.icook.network/uploads/recipe/cover/328980/f591b7fd14dbdf8c.jpg"
+  },
+  {
+    "id": "sesameOilEgg",
+    "name": "麻油麵線雞蛋煎",
+    "amount": "一人份",
+    "ingredients": [
+      [ "vermicelli","1" ],
+      [ "scallion","3" ],
+      [ "egg","1" ],
+      [ "sesameOil","45" ]
+    ],
+    "steps": [
+      "1.水煮熟的麵線瀝乾。",
+      "2.加入麻油拌勻下鍋整成薄薄圓餅狀，小火將第一面煎至金黃色約5-6分鐘，將鍋子倒扣於盤子取出麵線煎備用。",
+      "3.下蔥蛋之後，將麵線煎（未煎的那面）下鍋鋪於蛋液上續煎1-2分鐘至蛋表面酥香起鍋盛盤。",
+      "4.好吃的麻油雞蛋麵線煎就完成囉！"
+    ],
+    "image":"https://imageproxy.icook.network/resize?background=255%2C255%2C255&nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Frecipe%2Fcover%2F369753%2F5d11e73630a35f66.jpg&width=443"
   }
 ]
