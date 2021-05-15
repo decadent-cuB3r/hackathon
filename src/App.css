@@ -1,3 +1,4 @@
+/* GENERAL */
 .Row{
   display: flex;
   flex-direction: row;
@@ -5,3 +6,46 @@
 .Col{
   width: max-content;
 }
+
+/* HEADER */
+
+.header {
+    text-align: center;
+    color: #fff;
+}
+
+.header-wrap {
+    display: flex;
+    padding-top: 2rem;
+    position: relative;
+    background-color: #FDD692;
+}
+/* NAVBAR */
+.navBar-wrap {
+    width: 100%;
+    position: relative;
+    
+}
+.navBar {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    opacity: 1;
+    font-size: 24px;
+    transition: opacity .25s linear;
+}
+
+.nav-item:hover {
+    opacity: 1;
+}
+
+.nav-item--active {
+    color: #1d8796;
+    opacity: 1;
+}
+
+/* FOOTER */

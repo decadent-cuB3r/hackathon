@@ -12,7 +12,7 @@ export default function NavItem(props) {
   };
 
   return (
-    <Link to={to}>
+    <Link to={to} style={{textDecoration: 'none'}}>
       <div
         onClick={onClick}
         className={`
