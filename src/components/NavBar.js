@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { Drawer } from "antd";
 import NavItem from "./NavItem";
 import HamMenu from "./HamMenu";
@@ -12,7 +12,7 @@ export default function NavBar() {
     const sticky = myNav.offsetTop;
     const scrollCallBack = window.addEventListener("scroll", () => {
       if (window.pageYOffset > sticky) {
-         myNav.classList.add("sticky");
+        myNav.classList.add("sticky");
       } else {
         myNav.classList.remove("sticky");
       }
@@ -24,29 +24,45 @@ export default function NavBar() {
 
   return (
     <div className="navBar-wrap" id="myNav">
-      <div className="navBar-hr--line" />
-      	<HamMenu
-          onClick={() => setIsOnTouch(!isOnTouch)}
-          isOnTouch={isOnTouch}
-        />
-        <div className="navBar collapse-mobile">
-          <NavItem to="/cook" className="nav-item" activeClassName="nav-item--active">
-            咖雞煮什麼
-          </NavItem>
-          <NavItem to="/news" className="nav-item" activeClassName="nav-item--active">
-            最新消息
-          </NavItem>
-          <NavItem to="/shoppingguide" className="nav-item" activeClassName="nav-item--active">
-            購物說明
-          </NavItem>
-          <NavItem to="/packagesubmission" className="nav-item" activeClassName="nav-item--active">
-            投稿食材包
-          </NavItem>
-          <NavItem to="/kagiinfo" className="nav-item" activeClassName="nav-item--active">
-            認識咖雞
-          </NavItem>
-        </div>
-            {/* <Drawer
+      <HamMenu onClick={() => setIsOnTouch(!isOnTouch)} isOnTouch={isOnTouch} />
+      <div className="navBar collapse-mobile">
+        <NavItem
+          to="/cook"
+          className="nav-item"
+          activeClassName="nav-item--active"
+        >
+          咖雞煮什麼
+        </NavItem>
+        <NavItem
+          to="/news"
+          className="nav-item"
+          activeClassName="nav-item--active"
+        >
+          最新消息
+        </NavItem>
+        <NavItem
+          to="/shoppingguide"
+          className="nav-item"
+          activeClassName="nav-item--active"
+        >
+          購物說明
+        </NavItem>
+        <NavItem
+          to="/packagesubmission"
+          className="nav-item"
+          activeClassName="nav-item--active"
+        >
+          投稿食材包
+        </NavItem>
+        <NavItem
+          to="/kagiinfo"
+          className="nav-item"
+          activeClassName="nav-item--active"
+        >
+          認識咖雞
+        </NavItem>
+      </div>
+      {/* <Drawer
                 title=" "
                 placement={"top"}
                 closable={false}
