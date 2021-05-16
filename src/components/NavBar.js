@@ -28,11 +28,11 @@ export default function NavBar() {
           咖雞煮什麼
         </NavItem>
         <NavItem
-          to="/news"
+          to="/"
           className="nav-item"
           activeClassName="nav-item--active"
         >
-          最新消息
+          認識咖雞
         </NavItem>
         <NavItem
           to="/shoppingguide"
@@ -47,13 +47,6 @@ export default function NavBar() {
           activeClassName="nav-item--active"
         >
           投稿食材包
-        </NavItem>
-        <NavItem
-          to="/kagiinfo"
-          className="nav-item"
-          activeClassName="nav-item--active"
-        >
-          認識咖雞
         </NavItem>
       </div>
     </div>

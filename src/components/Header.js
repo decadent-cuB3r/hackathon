@@ -14,7 +14,7 @@ function Header() {
   };
 
   const onClick = () => {
-    activeNavItemSet(dispatch, "/");
+    activeNavItemSet(dispatch, "");
   };
 
   return (
