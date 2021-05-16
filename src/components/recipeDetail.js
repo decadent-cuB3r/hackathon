@@ -3,7 +3,7 @@ import Previous from "./previousPage"
 
 const { Ingredients, Information, General, Steps } = Layout
 
-export default function RecipeDetail( recipe ) {
+export default function RecipeDetail({ recipe }) {
 
     return (
         <Layout className="recipeDetail-container">

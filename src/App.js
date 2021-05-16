@@ -21,7 +21,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/cart" component={Cart} />
           <Route exact path="/cook" component={Cook} />
-          <Route path="/cook/:chosenRecipeId" component={HowToCook} />
+          <Route path="/cook/:recipeId" component={HowToCook} />
           <Route path="/shoppingguide" component={ShoppingGuide} />
           <Route path="/packagesubmission" component={PackageSubmission} />
           <Route path="/kagiinfo" component={KagiInfo} />

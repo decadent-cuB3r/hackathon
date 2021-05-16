@@ -9,8 +9,8 @@ const { Header, Content, Footer } = Layout;
 
 
 function HowToCook({ match }) {
-  const chosenRecipe = recipes.find(
-    (x) => x.id === match.params.chosenRecipeId
+  const choseRecipe = recipes.find(
+    (x) => x.id === match.params.recipeId
   )
   return (
     <>
@@ -19,7 +19,7 @@ function HowToCook({ match }) {
           <AppHeader />
         </Header>
         <Content className="layout-content">
-          <RecipeDetail recipe={chosenRecipe} />
+          <RecipeDetail recipe={choseRecipe} />
         </Content>
       </Layout>
       <AppFooter />
