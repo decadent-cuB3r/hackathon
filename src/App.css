@@ -145,17 +145,22 @@ body{
   width: 100%;
 }
 
+.intro-container{
+  position: relative;
+  justify-content: center;
+}
+
 .intro-headtext{
   padding: 1rem;
   width: fit-content;
   background-color: #FDD692;
-  position: absolute;
 }
 
 .intro-frame{
   border-radius: 69px;
   min-width: 85vh;
   background-color: #FFF6C8;
+  margin-top: 2rem;
 }
 
 /* LOGINFORM */

@@ -39,6 +39,8 @@ export default function HomeIntro() {
             <h1 className="intro-headtext">
                 <img src={Headtext} alt="咖雞煮，讓你在家自己煮" />
             </h1>
+            <img className="intro-tomato" src={Tomato} />
+            <img className="intro-carrot" src={Carrot} />
             <div className="intro-frame">
                 <Row align="middle">
                     <Col span={12}>
