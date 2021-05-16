@@ -4,7 +4,6 @@ import { StoreProvider } from './store';
 import Home from './pages/Home';
 import Cook from './pages/Cook';
 import HowToCook from './pages/HowToCook'
-import News from './pages/News';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 import ShoppingGuide from './pages/ShoppingGuide';
@@ -22,8 +21,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/cart" component={Cart} />
           <Route exact path="/cook" component={Cook} />
-          <Route path="/cook/:chosenRecipeId" component={HowToCook} />
-          <Route path="/news" component={News} />
+          <Route path="/cook/:chosenRecipe" component={HowToCook} />
           <Route path="/shoppingguide" component={ShoppingGuide} />
           <Route path="/packagesubmission" component={PackageSubmission} />
           <Route path="/kagiinfo" component={KagiInfo} />

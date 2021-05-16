@@ -6,7 +6,7 @@ import UserPhoto from "../components/UserPhoto";
 import ProfileNav from "../components/ProfileNav";
 import AppFooter from "../components/Footer";
 
-const { Header, Content, Footer } = Layout;
+const { Header } = Layout;
 
 function Login() {
   return (
@@ -17,11 +17,11 @@ function Login() {
         </Header>
         <div className="layout-content">
           <Row className="container">
-            <Col span={5} offset={3}>
+            <Col span={5} offset={2}>
               <UserPhoto/>
               <ProfileNav/>
             </Col>
-            <Col lg={16}>
+            <Col md={14} offset={1}>
               <ProfileInfo />
             </Col>
           </Row>
