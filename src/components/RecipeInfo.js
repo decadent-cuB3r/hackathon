@@ -2,7 +2,7 @@ import { Card, Button } from "antd";
 import { Link } from "react-router-dom";
 
 
-export default function ProductItem({ recipe }) {
+export default function RecipeItem({ recipe }) {
   return (
     <Card className="">
       <Link to={`/cook/${recipe.id}`}>

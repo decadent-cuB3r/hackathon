@@ -1,11 +1,30 @@
-import { Row } from "antd";
+import { Row, Col, Divider, Layout, Descriptions } from "antd";
+import Previous from "./previousPage"
 
-function RecipeDetail(){
-    return(
-        <Row>
-            
-        </Row>
+
+const { Ingredients, Information, General, Steps } = Layout
+
+export default function RecipeDetail({ recipe }) {
+
+    return (
+        <Layout className="recipeDetail-container">
+            <Previous />
+            <General>
+                <div>{recipe.name}</div>
+                <img src={recipe.img} />
+            </General>
+            <Divider />
+            <Information>
+
+            </Information>
+            <Divider />
+            <Ingredients>
+
+            </Ingredients>
+            <Divider />
+            <Steps>
+
+            </Steps>
+        </Layout>
     );
 }
-
-export default RecipeDetail;

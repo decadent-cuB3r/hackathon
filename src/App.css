@@ -67,6 +67,7 @@ body {
 
 .layout-main {
     background-color: #FFFAE1;
+    min-height: 100vh;
 }
 
 
@@ -323,16 +324,16 @@ p {
     font-size: 18px;
 }
 
-input.ant-input {
-    margin-left: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
-    max-width: 430px;
-    width: 100%;
-    height: 40px;
-    border: 0;
-    position: relative;
-    font-size: 18px;
+.loginForm input.ant-input {
+  margin-left: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 430px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  position: relative;
+  font-size: 18px;
 }
 
 .ant-form-item-control-input {
@@ -427,6 +428,18 @@ input.ant-input {
     max-width: 700px;
     width: 100%;
     margin-top: 0;
+}
+
+.registerForm input.ant-input {
+  margin-left: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 430px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  position: relative;
+  font-size: 18px;
 }
 
 .registerForm .ant-form-item-control-input-content {
@@ -526,12 +539,19 @@ input.ant-input {
     transition: all 0.2s;
 }
 
-.profileInfo {
-    height: 790px;
-    background-color: #fff;
-    border: 5px solid #FDD692;
-    border-radius: 50px;
-    padding: 60px;
+.profileInfo-form{
+  margin: 0 40px;
+}
+.profileInfo-form label{
+  font-size: 14px;
+}
+
+.profileInfo{
+  height: 790px;
+  background-color: #fff;
+  border: 5px solid #FDD692;
+  border-radius: 50px;
+  padding: 60px;
 }
 
 .porfileInfo-colorBlock {
@@ -541,6 +561,43 @@ input.ant-input {
     background-color: #000;
 }
 
+.profileInfo input.ant-input{
+  margin-left: 20px;
+  padding-left: 8p;
+  padding-right: 8px;
+  width: 100%;
+  height: 35px;
+  border: 1px solid #000;
+  position: relative;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+.profileInfo-textarea{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.profileInfo-form-buttonDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileInfo-form-button{
+  width: 170px;
+  height: 45px;
+  border: 0;
+  color: #fff;
+  background-color: #FFA48A;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.profileInfo-form-button:hover{
+  background-color: #f6805f;
+}
 
 /* CONTENT */
 
@@ -721,12 +778,81 @@ input.ant-input {
     text-align: left;
 }
 
+/* RECIPEDETAIL */
+.recipeDetail-container{
+  background-color: #FFFFFF, 100%;
+}
+
 
 /* FOOTER */
 
 .footer {
     width: 100%;
     background-color: #fff;
+}
+
+footer {
+  background-color: #fff;
+  padding: 12px;
+  padding-top: 24px;
+}
+
+.footer-bottomLine{
+  text-decoration: none;
+  color: #000;
+}
+
+/* SHOPPING GUIDE */
+.shopping-guide-wrap {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 35px;
+}
+
+.shopping-guide-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shopping-guide-title--sec {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.shopping-guide-text {
+  font-size: 18px;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2;
+}
+
+.shopping-guide-text-notes {
+  text-align: left;
+}
+
+.shopping-delivery-info-notifiaction {
+  text-align: left;
+}
+
+.shopping-delivery-info-notifiaction .shopping-guide-text {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-payment-method-icon-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-payment-method-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shopping-payment-method-cash-wrap {
+  margin-left: 64px;
 }
 
 .footer-bottomLine {

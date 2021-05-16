@@ -11,7 +11,6 @@ import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
-// import Recipe from './pages/Recipe';
 
 function App() {
   return (

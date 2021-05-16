@@ -73,17 +73,6 @@ const RegisterForm = () => {
       >
         <Form.Item
           name="email"
-          rules={[
-            {
-              type: "email",
-              message: "The input is not valid E-mail!",
-            },
-            {
-              required: true,
-              message: "Please input your E-mail!",
-            },
-          ]}
-          hasFeedback
         >
           <label>帳號：</label>
           <Input
@@ -92,13 +81,6 @@ const RegisterForm = () => {
         </Form.Item>
         <Form.Item
           name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
         >
           <label className="formLogin-label">密碼：</label>
           <Input
@@ -108,13 +90,6 @@ const RegisterForm = () => {
         </Form.Item>
         <Form.Item
           name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
         >
           <label className="formLogin-label">再次輸入密碼：</label>
           <Input
@@ -124,51 +99,18 @@ const RegisterForm = () => {
         </Form.Item>
         <Form.Item
           name="name"
-          rules={[
-            {
-              type: "string",
-              message: "The input is not valid E-mail!",
-            },
-            {
-              required: true,
-              message: "Please input your E-mail!",
-            },
-          ]}
-          hasFeedback
         >
           <label>姓名：</label>
           <Input/>
         </Form.Item>
         <Form.Item
           name="idNum"
-          rules={[
-            {
-              type: "string",
-              message: "The input is not valid E-mail!",
-            },
-            {
-              required: true,
-              message: "Please input your E-mail!",
-            },
-          ]}
-          hasFeedback
         >
           <label>身份證字號：</label>
           <Input/>
         </Form.Item>
         <Form.Item
           name="phoneNum"
-          rules={[
-            {
-              type: "string",
-              message: "The input is not valid E-mail!",
-            },
-            {
-              required: true,
-              message: "Please input your E-mail!",
-            },
-          ]}
-          hasFeedback
         >
           <label>手機號碼：</label>
           <Input/>

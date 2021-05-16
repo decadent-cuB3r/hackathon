@@ -2,9 +2,11 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import React, {useContext, useEffect} from "react";
 import { Link, useHistory } from "react-router-dom";
-import { Form, Input, Button, Checkbox } from 'antd';
+import { Form, Input, Button, Row, Col } from 'antd';
 import { loginToFirebase } from '../actions'
 import { StoreContext } from "../store"
+
+const { TextArea } = Input;
 
 export default function ProfileInfo() {
   const { state:{ userSignin: { userInfo, loading, error, remember } }, dispatch } = useContext(StoreContext);
@@ -23,6 +25,7 @@ export default function ProfileInfo() {
       <div className="porfileInfo-colorBlock"></div>
 
       <Form
+        className="profileInfo-form"
         name="normal_login"
         form={form}
         initialValues={{
@@ -30,99 +33,57 @@ export default function ProfileInfo() {
         }}
         onFinish={onFinish}
       >
+        <Row>
+          <Col md={11}>
+            <label>姓名</label>
+            <Form.Item
+              name="name"
+            >
+              <Input/>
+            </Form.Item>
+          </Col>
+          <Col md={11} offset={2}>
+            <label className="formLogin-label">暱稱</label>
+            <Form.Item
+              name="string"
+            >
+              <Input
+                type="password"
+              />
+            </Form.Item>
+          </Col>
+        </Row>
+        <label className="formLogin-label">電子郵件</label>
         <Form.Item
           name="email"
-          rules={[
-            {
-              type: "email",
-              message: "The input is not valid E-mail!",
-            },
-            {
-              required: true,
-              message: "Please input your E-mail!",
-            },
-          ]}
-          hasFeedback
         >
-          <label>姓名：</label>
           <Input
-            placeholder="email"
+            type="email"
           />
         </Form.Item>
+        <label className="formLogin-label">地址</label>
         <Form.Item
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
+          name="address"
         >
-          <label className="formLogin-label">暱稱：</label>
           <Input
-            type="password"
-            placeholder=" "
+            type="string"
           />
         </Form.Item>
-        <Form.Item
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
-        >
-          <label className="formLogin-label">電子郵件</label>
-          <Input
-            type="password"
-            placeholder=" "
-          />
-        </Form.Item>
-        <Form.Item
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
-        >
-          <label className="formLogin-label">地址</label>
-          <Input
-            type="password"
-            placeholder=" "
-          />
-        </Form.Item>
-        <Form.Item
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your Password!",
-            },
-          ]}
-          hasFeedback
-        >
-          <label className="formLogin-label">個人簡介</label>
-          <Input
-            type="password"
-            placeholder=" "
-          />
-        </Form.Item>
-        <div className="registerForm-form-buttonDiv">
+        <label className="formLogin-label">個人簡介</label>
+        <TextArea
+          className="profileInfo-textarea"
+          autoSize={{ minRows: 5, maxRows: 5 }}
+        />
+        <div className="profileInfo-form-buttonDiv">
           <Form.Item>
-                <Button
-                type="primary"
-                htmlType="submit"
-                className="registerForm-form-button"
-                // loading
-              >
-                更新個人資料
-              </Button>
+            <Button
+              type="primary"
+              htmlType="submit"
+              className="profileInfo-form-button"
+              // loading
+            >
+              更新個人資料
+            </Button>
           </Form.Item>
         </div>
       </Form>
