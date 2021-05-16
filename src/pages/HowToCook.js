@@ -8,6 +8,8 @@ import { setRecipeDetail } from "../actions";
 import { StoreContext } from "../store"
 const { Header, Content, Footer } = Layout;
 
+// recipe ={chosenRecipe}
+
 function HowToCook({ match }) {
 	const { dispatch } = useContext(StoreContext);   
 	useEffect(() => setRecipeDetail(dispatch, match.params.chosenRecipe, 0),[])
@@ -18,7 +20,7 @@ function HowToCook({ match }) {
           <AppHeader />
         </Header>
         <Content className="layout-content">
-          <RecipeDetail recipe ={chosenRecipe}/>
+          <RecipeDetail />
         </Content>
       </Layout>
       <AppFooter />

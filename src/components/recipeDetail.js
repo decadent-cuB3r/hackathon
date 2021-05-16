@@ -1,5 +1,6 @@
 import { Row, Col, Divider, Layout, Descriptions } from "antd";
 import Previous from "./previousPage"
+import recipeDetail from "../images/RecipeInfo/recipeDetail.png"
 
 
 const { Ingredients, Information, General, Steps } = Layout
@@ -8,7 +9,7 @@ export default function RecipeDetail({ recipe }) {
 
     return (
         <Layout className="recipeDetail-container">
-            <Previous />
+            {/* <Previous />
             <General>
                 <div>{recipe.name}</div>
                 <img src={recipe.img} />
@@ -24,7 +25,9 @@ export default function RecipeDetail({ recipe }) {
             <Divider />
             <Steps>
 
-            </Steps>
+            </Steps> */}
+            <img src= { recipeDetail } alt="" className=""/>
+
         </Layout>
     );
 }
