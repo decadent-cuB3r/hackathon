@@ -1,8 +1,8 @@
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
-import recipes from "../json/recipes.json";
 import RecipeDetail from "../components/RecipeDetail"
+import recipes from "../json/recipes.json";
 
 const { Header, Content, Footer } = Layout;
 

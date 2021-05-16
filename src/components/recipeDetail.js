@@ -9,11 +9,8 @@ export default function RecipeDetail({ recipe }) {
         <Layout className="recipeDetail-container">
             <Previous />
             <General>
-                <Row>
-                    <Col lg={{ span: 8, offset: 4 }} xs={{ span: 21, offset: 1 }}>
-                        <img alt="" className="recipeDetail-image" src={recipe.img} />
-                    </Col>
-                </Row>
+                <div>{recipe.name}</div>
+                <img src={recipe.img} />
             </General>
             <Divider />
             <Information>
