@@ -13,7 +13,7 @@ export default function ProductItem({ recipe }) {
         <span className="">NTD {recipe.price}</span>
       </div>
       <div className="">
-        <Link to={`/detail/${recipe.id}`}>
+        <Link to={`/cook/${recipe.id}`}>
           <Button className="" type="ghost">More</Button>
         </Link>
       </div>
