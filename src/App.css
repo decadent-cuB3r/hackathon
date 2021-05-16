@@ -290,6 +290,26 @@ input.ant-input{
   border-radius: 10px;
   font-size: 14px;
 }
+
+/* PROFIIE */
+.userPhoto{
+  width: 240px;
+  height: 330px;
+  background-color: #fff;
+}
+
+.profileNav{
+  margin-top: 40px;
+  width: 240px;
+  height: 330px;
+  background-color: #fff;
+}
+
+.profileInfo{
+  height: 700px;
+  background-color: #fff;
+}
+
 /* CONTENT */
 .layout-content{
   padding:70px 0 100px 0;
@@ -300,6 +320,7 @@ input.ant-input{
 .layout-content-home{
   padding-top: 13px;
 }
+
 /* FOOTER */
 .footer {
   width: 100%;

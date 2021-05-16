@@ -11,6 +11,7 @@ import ShoppingGuide from './pages/ShoppingGuide';
 import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
 import Register from './pages/Register';
+import Profile from './pages/Profile';
 // import Recipe from './pages/Recipe';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/packagesubmission" component={PackageSubmission} />
           <Route path="/kagiinfo" component={KagiInfo} />
           <Route path="/register" component={Register} />
+          <Route path="/profile" component={Profile} />
         </Switch>
       </BrowserRouter>
     </StoreProvider>

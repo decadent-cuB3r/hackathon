@@ -5,7 +5,7 @@ import LoginForm from "../components/LoginForm";
 import AppFooter from "../components/Footer";
 import React from 'react';
 import Lottie from 'react-lottie';
-import cookMealJson from "../lottie/
+import cookMealJson from "../lottie/cooking-food.json";
 
 const cookMeal = {
   loop: true,

@@ -7,7 +7,7 @@ import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
 import { loginToFirebase } from '../actions'
 import { StoreContext } from "../store"
 
-const LoginForm = () => {
+export default function LoginForm() {
   const { state:{ userSignin: { userInfo, loading, error, remember } }, dispatch } = useContext(StoreContext);
   const [form] = Form.useForm();
   const history = useHistory();
@@ -186,4 +186,3 @@ const LoginForm = () => {
     </div>
   );
 };
-export default LoginForm;
