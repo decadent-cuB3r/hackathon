@@ -1,4 +1,9 @@
 @import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* RWD Container */
 .container {
@@ -157,12 +162,12 @@
 .loginForm{
   max-width: 540px;
   margin-top: 0;
-  background-color: #FFFAE1;
 }
 
 .loginForm-title{
   margin: 0;
   font-weight: 700;
+  font-size: 24px;
 }
 
 .loginForm-colorBlock{
@@ -170,6 +175,10 @@
   height: 10px;
   width: 100%;
   background-color: #FDD692;
+}
+
+.ant-form label{
+  font-size: 18px;
 }
 
 input.ant-input{
@@ -181,6 +190,7 @@ input.ant-input{
   height: 40px;
   border: 0;
   position:relative;
+  font-size: 18px;
 }
 
 .ant-form-item-control-input{
@@ -194,18 +204,34 @@ input.ant-input{
 }
 
 .ant-form-item-explain-error{
-  margin-left: 90px;
+  margin-left: 95px;
+}
+
+.loginForm-register{
+  margin-left: 95px;
+}
+
+.loginForm-register-text{
+  color: #FFA200;
+  font-weight: 700;
+}
+
+.loginForm-register-text:hover{
+  color: #54c266;
 }
 
 .login-form__button{
   width: 180px;
   height: 40px;
   border: 0;
+  color: #000;
   background-color: #FDD692;
   border-radius: 10px;
+  font-size: 14px;
 }
 
 .login-form__button:hover{
+  color: #000;
   background-color: #ffab5d;
 }
 
@@ -230,11 +256,13 @@ input.ant-input{
   border-radius: 10px;
   border: 0;
   margin-top: 10px;
-  background-color: #c5c5c5;
+  background-color: #f1f1f1;
+  color: #000;
 }
 
 .loginForm-loginElse-btn:hover{
-  background-color: #9e9e9e;
+  background-color: #acacac;
+  color: #000;
 }
 
 .loginForm-colorLine{
@@ -244,10 +272,46 @@ input.ant-input{
   background-color: #FF7A5B;
 }
 
+.login-img{
+  height: 100%;
+  border-radius: 30px;
+}
+
+/* REGISTERFORM */
+.registerForm{
+  margin:0 auto;
+  max-width: 700px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.registerForm .ant-form-item-control-input-content {
+  margin-right: 80px;
+  justify-content: flex-end;
+}
+
+.registerForm-form-buttonDiv{
+  margin-left: 80px;
+}
+.registerForm-form-button{
+  margin: 0 auto;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  color: #000;
+  background-color: #FDD692;
+  border-radius: 10px;
+  font-size: 14px;
+}
 /* CONTENT */
 .layout-content{
-  min-height: 100vh;
-  margin-top: 120px;
+  padding:70px 0 100px 0;
+  margin-top: 100px;
+  background-color: #FFFAE1;
+}
+
+.layout-content-home{
+  padding-top: 13px;
 }
 /* FOOTER */
 .footer {
