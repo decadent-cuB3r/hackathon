@@ -1,23 +1,26 @@
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
-import RecipeList from "../components/RecipeList";
 import recipes from "../json/recipes.json";
-import { useContext, useEffect } from "react";
-import { setRecipeDetail } from "../actions";
-import { StoreContext } from "../store"
+import RecipeDetail from "../components/RecipeDetail"
+
 const { Header, Content, Footer } = Layout;
 
+
+
 function HowToCook({ match }) {
-	const { dispatch } = useContext(StoreContext);   
-	useEffect(() => setRecipeDetail(dispatch, match.params.chosenRecipe, 0),[])
+  const choseRecipe = recipes.find(
+    (x) => x.id === match.params.recipeId
+  )
   return (
     <>
       <Layout className="container layout-main">
         <Header className="layout-header">
           <AppHeader />
         </Header>
-        <Content className="layout-content"></Content>
+        <Content className="layout-content">
+          <RecipeDetail recipe={choseRecipe} />
+        </Content>
       </Layout>
       <AppFooter />
     </>

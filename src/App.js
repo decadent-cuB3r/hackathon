@@ -11,7 +11,6 @@ import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
-// import Recipe from './pages/Recipe';
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/cart" component={Cart} />
           <Route exact path="/cook" component={Cook} />
-          <Route path="/cook/:chosenRecipe" component={HowToCook} />
+          <Route path="/cook/:recipeId" component={HowToCook} />
           <Route path="/shoppingguide" component={ShoppingGuide} />
           <Route path="/packagesubmission" component={PackageSubmission} />
           <Route path="/kagiinfo" component={KagiInfo} />

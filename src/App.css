@@ -1,216 +1,268 @@
 @import "~antd/dist/antd.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fffae1;
+    font-family: "Roboto", sans-serif;
+    background-color: #fffae1;
 }
 
 
 /* RWD Container */
+
 .container {
-  width: 100%;
-  display: flex;
-  align-self: center;
-  margin: auto;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: auto;
 }
+
 
 /* sm */
+
 @media (min-width: 576px) {
-  .container {
-    width: 540px;
-  }
+    .container {
+        width: 540px;
+    }
 }
+
 
 /* md */
+
 @media (min-width: 768px) {
-  .container {
-    width: 720px;
-  }
+    .container {
+        width: 720px;
+    }
 }
+
 
 /* lg */
+
 @media (min-width: 992px) {
-  .container {
-    width: 960px;
-  }
+    .container {
+        width: 960px;
+    }
 }
+
 
 /* xl */
+
 @media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
+    .container {
+        width: 1140px;
+    }
 }
+
 
 /* xxl */
+
 @media (min-width: 1600px) {
-  .container {
-    width: 1500px;
-  }
+    .container {
+        width: 1500px;
+    }
 }
 
+
 /* LAYOUT MAIN */
+
 .layout-main {
-  background-color: #FFFAE1;
+    background-color: #FFFAE1;
 }
+
 
 /* HEADER */
 
 .header {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: #fff;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 
 .header-wrap {
-  display: flex;
-  align-items: center;
-  background-color: #fdd692;
-  height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fdd692;
+    height: 100px;
 }
 
 .header-logo-wrap {
-  margin-left: 12px;
+    margin-left: 12px;
 }
 
 .header-logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .header-logoImg {
-  display: inline-block;
-  height: 80px;
+    display: inline-block;
+    height: 80px;
 }
 
 .header-titleImg {
-  display: inline-block;
-  margin-left: 6px;
-  height: 60px;
+    display: inline-block;
+    margin-left: 6px;
+    height: 60px;
 }
 
 .header-icons-wrap {
-  display: flex;
-  width: 10%;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-icon-link {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .layout-header {
-  height: auto;
+    height: auto;
 }
 
+
 /* NAVBAR */
+
 .navBar-wrap {
-  width: 80%;
-  /* position: relative; */
+    width: 80%;
+    /* position: relative; */
 }
+
 .navBar {
-  display: flex;
-  /* position: relative; */
-  justify-content: center;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
 }
 
 .nav-item {
-  color: #fff;
-  opacity: 1;
-  font-size: 24px;
-  transition: opacity 0.25s linear;
-  margin-left: 48px;
+    color: #fff;
+    opacity: 1;
+    font-size: 24px;
+    transition: opacity 0.25s linear;
+    margin-left: 48px;
 }
 
 .nav-item-first {
-  margin-left: 0px;
+    margin-left: 0px;
 }
 
 .nav-item:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .nav-item--active {
-  color: #754f44;
-  opacity: 1;
+    color: #754f44;
+    opacity: 1;
 }
 
+
 /* HOME */
+
 .home-background {
-  background-image: url("./images/HomeIntro/Background.svg");
-  width: 100%;
+    background-image: url("./images/HomeIntro/Background.svg");
+    width: 100%;
 }
 
 .intro-container {
-  position: relative;
-  justify-content: center;
+    position: relative;
+    justify-content: center;
 }
 
 .intro-headtext--center {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .intro-headtext {
-  padding: 1.5rem;
-  width: fit-content;
-  background-color: #fdd692;
-  position: absolute;
-  margin-top: 5rem;
+    padding: 1.5rem;
+    width: fit-content;
+    background-color: #fdd692;
+    position: absolute;
+    margin-top: 5rem;
 }
 
 .intro-headtext img {
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
 }
 
 .intro-frame {
-  border-radius: 69px;
-  width: 86vw;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff6c8;
-  margin-top: 8rem;
+    border-radius: 69px;
+    width: 86vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff6c8;
+    margin-top: 8rem;
 }
+
 .intro-carrot {
-  position: absolute;
-  left: 3rem;
-  top: 30rem;
+    position: absolute;
+    left: 3rem;
+    top: 30rem;
 }
+
 .intro-tomato {
-  position: absolute;
-  right: 3rem;
-  top: 50rem;
+    position: absolute;
+    right: 3rem;
+    top: 50rem;
 }
+
+.intro-slogan {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.intro-shop-title {
+    width: 100%;
+    height: 106px;
+    background-color: #FFA48A;
+    font-size: 24px;
+    line-height: 106px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.intro-shop-img {
+    margin: auto;
+    margin-top: 3%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-shopimg {
+    width: 242px;
+    height: 242px;
+}
+
+
 /* LOGINFORM */
+
 .loginForm {
-  max-width: 540px;
-  margin-top: 0;
+    max-width: 540px;
+    margin-top: 0;
 }
 
 .loginForm-title {
-  margin: 0;
-  font-weight: 700;
-  font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .loginForm-colorBlock {
-  margin: 10px 0 20px 0;
-  height: 10px;
-  width: 100%;
-  background-color: #fdd692;
+    margin: 10px 0 20px 0;
+    height: 10px;
+    width: 100%;
+    background-color: #fdd692;
 }
 
 .ant-form label {
-  font-size: 18px;
+    font-size: 18px;
 }
 
-input.ant-input {
+.loginForm input.ant-input {
   margin-left: 20px;
   padding-left: 8px;
   padding-right: 8px;
@@ -223,188 +275,213 @@ input.ant-input {
 }
 
 .ant-form-item-control-input {
-  height: 50px;
+    height: 50px;
 }
 
 .ant-form-item-control-input-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ant-form-item-explain-error {
-  margin-left: 95px;
+    margin-left: 95px;
 }
 
 .loginForm-register {
-  margin-left: 95px;
+    margin-left: 95px;
 }
 
 .loginForm-register-text {
-  color: #ffa200;
-  font-weight: 700;
+    color: #ffa200;
+    font-weight: 700;
 }
 
 .loginForm-register-text:hover {
-  color: #54c266;
+    color: #54c266;
 }
 
 .login-form__button {
-  width: 180px;
-  height: 40px;
-  border: 0;
-  color: #000;
-  background-color: #fdd692;
-  border-radius: 10px;
-  font-size: 14px;
+    width: 180px;
+    height: 40px;
+    border: 0;
+    color: #000;
+    background-color: #fdd692;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 .login-form__button:hover {
-  color: #000;
-  background-color: #ffab5d;
+    color: #000;
+    background-color: #ffab5d;
 }
 
 .loginForm-loginElse {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .loginForm-loginElse-btns {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .loginForm-loginElse-btn {
-  height: 35px;
-  max-width: 250px;
-  width: 100%;
-  border-radius: 10px;
-  border: 0;
-  margin-top: 10px;
-  background-color: #f1f1f1;
-  color: #000;
+    height: 35px;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    color: #000;
 }
 
 .loginForm-loginElse-btn:hover {
-  background-color: #acacac;
-  color: #000;
+    background-color: #acacac;
+    color: #000;
 }
 
 .loginForm-colorLine {
-  height: 3px;
-  width: 200px;
-  margin: 0 10px;
-  background-color: #ff7a5b;
+    height: 3px;
+    width: 200px;
+    margin: 0 10px;
+    background-color: #ff7a5b;
 }
 
 .login-img {
-  height: 100%;
-  border-radius: 30px;
+    height: 100%;
+    border-radius: 30px;
 }
 
+
 /* REGISTERFORM */
+
 .registerForm {
-  margin: 0 auto;
-  max-width: 700px;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.registerForm input.ant-input {
+  margin-left: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 430px;
   width: 100%;
-  margin-top: 0;
+  height: 40px;
+  border: 0;
+  position: relative;
+  font-size: 18px;
 }
 
 .registerForm .ant-form-item-control-input-content {
-  margin-right: 80px;
-  justify-content: flex-end;
+    margin-right: 80px;
+    justify-content: flex-end;
 }
 
 .registerForm-form-buttonDiv {
-  margin-left: 80px;
+    margin-left: 80px;
 }
+
 .registerForm-form-button {
-  margin: 0 auto;
-  width: 180px;
-  height: 40px;
-  border: 0;
-  color: #000;
-  background-color: #fdd692;
-  border-radius: 10px;
-  font-size: 14px;
+    margin: 0 auto;
+    width: 180px;
+    height: 40px;
+    border: 0;
+    color: #000;
+    background-color: #fdd692;
+    border-radius: 10px;
+    font-size: 14px;
 }
+
 
 /* PROFIIE */
+
 .userPhoto {
-  width: 240px;
-  height: 350px;
-  background-color: #fff;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    width: 240px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.userPhoto-img{
-  width: 150px;
-  height: 150px;
-  background-color: #FDD692;
-  border-radius: 50%;
+.userPhoto-img {
+    width: 150px;
+    height: 150px;
+    background-color: #FDD692;
+    border-radius: 50%;
 }
 
-.userPhoto-changeImg{
-  width: 175px;
-  height: 50px;
-  margin-top: 40px;
-  font-size: 18px;
-  border: 1px solid #000;
-  background-color: #fff;
-  cursor: pointer;
-  transition: all 0.2s;
+.userPhoto-changeImg {
+    width: 175px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
 }
-.userPhoto-changeImg:hover{
-  background-color: #F2E9E1;
-  transition: all 0.2s;
+
+.userPhoto-changeImg:hover {
+    background-color: #F2E9E1;
+    transition: all 0.2s;
 }
 
 .profileNav {
-  margin-top: 40px;
-  width: 240px;
-  height: 400px;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  border-radius: 30px;
+    margin-top: 40px;
+    width: 240px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 30px;
 }
 
-.profileNav-list{
-  list-style-type: none;
-  padding: 0;
-  cursor: pointer;
+.profileNav-list {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
 }
 
-.profileNav-list li{
-  margin-bottom: 20px;
+.profileNav-list li {
+    margin-bottom: 20px;
 }
 
-.profileNav button{
-  color: #754F44;
-  border: 0;
-  width: 120px;
-  height: 50px;
-  border-radius: 30px;
-  background-color: #F2E9E1;
-  cursor: pointer;
-  transition: all 0.2s;
+.profileNav button {
+    color: #754F44;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #F2E9E1;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
-.profileNav button:hover{
-  color: #fff;
-  background-color: #c0a288;
-  transition: all 0.2s;
+.profileNav button:hover {
+    color: #fff;
+    background-color: #c0a288;
+    transition: all 0.2s;
+}
+
+.profileInfo-form{
+  margin: 0 40px;
+}
+.profileInfo-form label{
+  font-size: 14px;
 }
 
 .profileInfo{
@@ -415,193 +492,246 @@ input.ant-input {
   padding: 60px;
 }
 
-.porfileInfo-colorBlock{
-  margin: 10px 0 20px 0;
-  height: 2px;
+.porfileInfo-colorBlock {
+    margin: 10px 0 20px 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+
+.profileInfo input.ant-input{
+  margin-left: 20px;
+  padding-left: 8p;
+  padding-right: 8px;
   width: 100%;
-  background-color: #000;
+  height: 35px;
+  border: 1px solid #000;
+  position: relative;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+.profileInfo-textarea{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.profileInfo-form-buttonDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileInfo-form-button{
+  width: 170px;
+  height: 45px;
+  border: 0;
+  color: #fff;
+  background-color: #FFA48A;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.profileInfo-form-button:hover{
+  background-color: #f6805f;
 }
 
 /* CONTENT */
+
 .layout-content {
-  padding: 70px 0 100px 0;
-  margin-top: 100px;
-  background-color: #fffae1;
+    padding: 70px 0 100px 0;
+    margin-top: 100px;
+    background-color: #fffae1;
 }
 
 .layout-content-home {
-  padding-top: 13px;
-  background-image: url("../src/images/HomeIntro/Background.svg");
-  background-blend-mode: lighten;
+    padding-top: 13px;
+    background-image: url("../src/images/HomeIntro/Background.svg");
+    background-blend-mode: lighten;
 }
 
+
 /* CART */
+
 .cart-wrap {
-  background-color: #fff;
-  border: solid 3px #fdd692;
-  border-radius: 12px;
-  box-sizing: border-box;
-  padding: 12px;
+    background-color: #fff;
+    border: solid 3px #fdd692;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 12px;
 }
 
 .cart-title {
-  margin-left: 5%;
-  font-size: 24px;
+    margin-left: 5%;
+    font-size: 24px;
 }
 
 .cart-reminder-text {
-  margin-left: 5%;
-  margin-top: 12px;
+    margin-left: 5%;
+    margin-top: 12px;
 }
 
 .cart-hr {
-  margin-left: 5%;
-  height: 2px;
-  width: 90%;
-  background-color: #000;
+    margin-left: 5%;
+    height: 2px;
+    width: 90%;
+    background-color: #000;
 }
 
 .cart-counting-wrap {
-  margin-left: 5%;
-  display: flex;
-  font-size: 18px;
-  width: 100%;
-  /* align-items: center; */
+    margin-left: 5%;
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    /* align-items: center; */
 }
 
 .cart-counting-select-wrap {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .cart-counting-select-coupon {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
 }
 
 .cart-counting-select-messenger {
-  display: flex;
-  /* align-items: center; */
-  flex-direction: row;
-  margin-top: 12px;
-  margin-bottom: 24px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-top: 12px;
+    margin-bottom: 24px;
 }
 
 .cart-counting-select-messenger-wrap {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .cart-counting-select-phone-call {
-  margin-top: 18px;
+    margin-top: 18px;
 }
 
 .cart-counting-price-wrap {
-  margin-left: 10%;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
+    margin-left: 10%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
 }
 
 .cart-counting-price-top-wrap {
-  display: flex;
+    display: flex;
 }
 
 .cart-counting-price-bottom-wrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
 }
 
 .cart-counting-price-pretext-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .cart-counting-price-text-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
 }
 
 .cart-modal-btn {
-  background-color: #ffa48a;
-  border-radius: 64px;
-  border: none;
-  width: 80%;
-  height: auto;
-  font-size: 18px;
+    background-color: #ffa48a;
+    border-radius: 64px;
+    border: none;
+    width: 80%;
+    height: auto;
+    font-size: 18px;
 }
 
 .cart-modal-btn:hover {
-  background-color: #ff7a5b;
+    background-color: #ff7a5b;
 }
 
 .cart-modal-btn:focus {
-  background-color: #FFA48A;
+    background-color: #FFA48A;
 }
 
 .tip-wrap {
-  background-color: #f2e9e1;
-  width: 90%;
-  height: auto;
-  margin-left: 5%;
-  border-radius: 36px;
-  padding: 24px;
-  display: flex;
-  align-items: center;
+    background-color: #f2e9e1;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    border-radius: 36px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
 }
 
 .tip-info {
-  flex-direction: column;
-  width: 45%;
+    flex-direction: column;
+    width: 45%;
 }
 
 .tip-info-title {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .tip-wrap ul {
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
 }
 
 .tip-wrap ul li {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .tip-hr {
-  width: 4px;
-  height: 240px;
-  margin-left: 5%;
-  background-color: #fff;
+    width: 4px;
+    height: 240px;
+    margin-left: 5%;
+    background-color: #fff;
 }
 
 .tip-delivery {
-  width: 45%;
-  text-align: center;
-  flex-direction: column;
+    width: 45%;
+    text-align: center;
+    flex-direction: column;
 }
 
 .tip-delivery-text {
-  width: 90%;
-  margin-left: 10%;
-  text-align: left;
+    width: 90%;
+    margin-left: 10%;
+    text-align: left;
 }
 
+/* RECIPEDETAIL */
+.recipeDetail-container{
+  background-color: #FFFFFF, 100%;
+}
+
+
 /* FOOTER */
+
 .footer {
-  width: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer {
   background-color: #fff;
+  padding: 12px;
 }
 
 .footer-bottomLine{
@@ -660,4 +790,9 @@ input.ant-input {
 
 .shopping-payment-method-cash-wrap {
   margin-left: 64px;
+}
+
+.footer-bottomLine {
+    text-decoration: none;
+    color: #000;
 }
