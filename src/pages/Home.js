@@ -15,7 +15,7 @@ function Home() {
         <Header className="layout-header">
           <AppHeader />
         </Header>
-        <Content className="layout-content">
+        <Content className="layout-content layout-content-home">
           <AppCarousel />
         </Content>
       </Layout>

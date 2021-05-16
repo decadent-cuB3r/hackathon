@@ -10,7 +10,8 @@ import Cart from './pages/Cart';
 import ShoppingGuide from './pages/ShoppingGuide';
 import PackageSubmission from './pages/PackageSubmission';
 import KagiInfo from './pages/KagiInfo';
-import Recipe from './pages/Recipe';
+import Register from './pages/Register';
+// import Recipe from './pages/Recipe';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/shoppingguide" component={ShoppingGuide} />
           <Route path="/packagesubmission" component={PackageSubmission} />
           <Route path="/kagiinfo" component={KagiInfo} />
+          <Route path="/register" component={Register} />
         </Switch>
       </BrowserRouter>
     </StoreProvider>

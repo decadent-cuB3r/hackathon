@@ -1,7 +1,7 @@
 import { Row, Col } from 'antd';
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
-import LoginForm from "../components/LoginForm";
+import RegisterForm from "../components/RegisterForm";
 import AppFooter from "../components/Footer";
 import cookPot from "../images/HomeIntro/cookPot.png"
 
@@ -15,14 +15,9 @@ function Login() {
           <AppHeader />
         </Header>
         <div className="layout-content">
-          <Row className="container">
-            <Col span={8} offset={3}>
-              <img src={cookPot} alt="cookPot" class="login-img"/>
-            </Col>
-            <Col lg={13}>
-              <LoginForm/>
-            </Col>
-          </Row>
+          <div className="container">
+            <RegisterForm/>
+          </div>
         </div>
       </Layout>
       <AppFooter />
