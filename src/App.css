@@ -140,9 +140,22 @@ body{
 }
 
 /* HOME */
-.layout-content{
+.home-background {
   background-image: url("./images/HomeIntro/Background.svg");
   width: 100%;
+}
+
+.intro-headtext{
+  padding: 1rem;
+  width: fit-content;
+  background-color: #FDD692;
+  position: absolute;
+}
+
+.intro-frame{
+  border-radius: 69px;
+  min-width: 85vh;
+  background-color: #FFF6C8;
 }
 
 /* LOGINFORM */
