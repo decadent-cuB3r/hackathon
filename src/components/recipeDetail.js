@@ -1,6 +1,7 @@
 import { Row, Col, Divider, Layout, Descriptions } from "antd";
 import Previous from "./previousPage"
 
+
 const { Ingredients, Information, General, Steps } = Layout
 
 export default function RecipeDetail({ recipe }) {
