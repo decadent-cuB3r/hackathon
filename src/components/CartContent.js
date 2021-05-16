@@ -82,6 +82,7 @@ export default function CartContent() {
             <div className="cart-counting-select-messenger-wrap">
               <div>訂單留言（希望配送日期時段、詳細位址名稱）</div>
               <textarea style={{height:'64px'}}></textarea>
+              <label><input className="cart-counting-select-phone-call" type="checkbox" />配送前是否需要電話通知</label>
             </div>
 
           </div>

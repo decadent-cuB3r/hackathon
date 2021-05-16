@@ -12,7 +12,7 @@ function Home() {
   // const { state: {} } = useContext(StoreContext);
   return (
     <>
-      <Layout className="container layout-main">
+      <Layout className="container layout-main home-background">
         <Header className="layout-header">
           <AppHeader />
         </Header>
