@@ -307,20 +307,90 @@ input.ant-input{
 /* PROFIIE */
 .userPhoto{
   width: 240px;
-  height: 330px;
+  height: 350px;
   background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userPhoto-img{
+  width: 150px;
+  height: 150px;
+  background-color: #FDD692;
+  border-radius: 50%;
+}
+
+.userPhoto-changeImg{
+  width: 175px;
+  height: 50px;
+  margin-top: 40px;
+  font-size: 18px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.userPhoto-changeImg:hover{
+  background-color: #F2E9E1;
+  transition: all 0.2s;
 }
 
 .profileNav{
   margin-top: 40px;
   width: 240px;
-  height: 330px;
+  height: 400px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.profileNav-list{
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.profileNav-list li{
+  margin-bottom: 20px;
+}
+
+.profileNav button{
+  color: #754F44;
+  border: 0;
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #F2E9E1;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.profileNav button:hover{
+  color: #fff;
+  background-color: #c0a288;
+  transition: all 0.2s;
 }
 
 .profileInfo{
-  height: 700px;
+  height: 790px;
   background-color: #fff;
+  border: 5px solid #FDD692;
+  border-radius: 50px;
+  padding: 60px;
+}
+
+.porfileInfo-colorBlock{
+  margin: 10px 0 20px 0;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
 }
 
 /* CONTENT */
