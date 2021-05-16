@@ -3,6 +3,7 @@ import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
 import AppCarousel from "../components/Carousel";
+import AppIntro from "../components/introHome"
 // import { StoreContext } from "../store"
 
 const { Header, Content, Footer } = Layout;
@@ -15,9 +16,12 @@ function Home() {
         <Header className="layout-header">
           <AppHeader />
         </Header>
-        <Content className="layout-content">
-          <AppCarousel />
-        </Content>
+        <div className="home-background">
+          <Content className="layout-content">
+            <AppCarousel />
+            <AppIntro />
+          </Content>
+        </div>
       </Layout>
       <AppFooter />
     </>

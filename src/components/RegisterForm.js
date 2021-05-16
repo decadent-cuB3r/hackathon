@@ -7,7 +7,7 @@ import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
 import { loginToFirebase } from '../actions'
 import { StoreContext } from "../store"
 
-const LoginForm = () => {
+const RegisterForm = () => {
   const { state:{ userSignin: { userInfo, loading, error, remember } }, dispatch } = useContext(StoreContext);
   const [form] = Form.useForm();
   const history = useHistory();
@@ -60,8 +60,8 @@ const LoginForm = () => {
   // }, [ userInfo ]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="loginForm">
-      <h1 className="loginForm-title">登入</h1>
+    <div className="registerForm">
+      <h1 className="loginForm-title">註冊</h1>
       <div className="loginForm-colorBlock"></div>
       <Form
         name="normal_login"
@@ -106,12 +106,73 @@ const LoginForm = () => {
             placeholder=" "
           />
         </Form.Item>
-          <p className="loginForm-register">
-            還沒有帳號？現在就
-            <Link to="/register" className="loginForm-register-text">加入</Link>
-            咖雞煮ㄅ！
-          </p>
-
+        <Form.Item
+          name="password"
+          rules={[
+            {
+              required: true,
+              message: "Please input your Password!",
+            },
+          ]}
+          hasFeedback
+        >
+          <label className="formLogin-label">再次輸入密碼：</label>
+          <Input
+            type="password"
+            placeholder=" "
+          />
+        </Form.Item>
+        <Form.Item
+          name="name"
+          rules={[
+            {
+              type: "string",
+              message: "The input is not valid E-mail!",
+            },
+            {
+              required: true,
+              message: "Please input your E-mail!",
+            },
+          ]}
+          hasFeedback
+        >
+          <label>姓名：</label>
+          <Input/>
+        </Form.Item>
+        <Form.Item
+          name="idNum"
+          rules={[
+            {
+              type: "string",
+              message: "The input is not valid E-mail!",
+            },
+            {
+              required: true,
+              message: "Please input your E-mail!",
+            },
+          ]}
+          hasFeedback
+        >
+          <label>身份證字號：</label>
+          <Input/>
+        </Form.Item>
+        <Form.Item
+          name="phoneNum"
+          rules={[
+            {
+              type: "string",
+              message: "The input is not valid E-mail!",
+            },
+            {
+              required: true,
+              message: "Please input your E-mail!",
+            },
+          ]}
+          hasFeedback
+        >
+          <label>手機號碼：</label>
+          <Input/>
+        </Form.Item>
         {/* <Form.Item>
           <Form.Item name="remember" valuePropName="checked" noStyle>
             <Checkbox>Remember me</Checkbox>
@@ -121,39 +182,41 @@ const LoginForm = () => {
             Forgot password
           </Link>
         </Form.Item> */}
+        <div className="registerForm-form-buttonDiv">
+          <Form.Item>
+            {/* {loading ? ( */}
+                <Button
+                type="primary"
+                htmlType="submit"
+                className="registerForm-form-button"
+                // loading
+              >
+                註冊
+              </Button>
 
-        <Form.Item>
-          {/* {loading ? ( */}
-            <Button
-              type="primary"
-              htmlType="submit"
-              className="login-form__button"
-              // loading
-            >
-              登入
-            </Button>
-          {/* ) : (
-            <Button
-              type="primary"
-              htmlType="submit"
-              className="login-form__button"
-            >
-              Log in
-            </Button> */}
-          {/* )} */}
-          {/* Or <Link to={"/register?redirect=shipping"}>register now!</Link>
-          {error === "" ? (
-            <></>
-          ) : (
-            <div className="login-form__error-wrap">
-              <h3 className="login-form__error-title">
-                <WarningOutlined className="site-form-item-icon" />
-                {"  "}There was a problem
-              </h3>
-              <p className="login-form__error-message">{error}</p>
-            </div>
-          )} */}
-        </Form.Item>
+            {/* ) : (
+              <Button
+                type="primary"
+                htmlType="submit"
+                className="login-form__button"
+              >
+                Log in
+              </Button> */}
+            {/* )} */}
+            {/* Or <Link to={"/register?redirect=shipping"}>register now!</Link>
+            {error === "" ? (
+              <></>
+            ) : (
+              <div className="login-form__error-wrap">
+                <h3 className="login-form__error-title">
+                  <WarningOutlined className="site-form-item-icon" />
+                  {"  "}There was a problem
+                </h3>
+                <p className="login-form__error-message">{error}</p>
+              </div>
+            )} */}
+          </Form.Item>
+        </div>
       </Form>
       <div className="loginForm-loginElse">
         <div className="loginForm-colorLine"></div>
@@ -186,4 +249,4 @@ const LoginForm = () => {
     </div>
   );
 };
-export default LoginForm;
+export default RegisterForm;

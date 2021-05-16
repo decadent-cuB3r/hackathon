@@ -11,7 +11,7 @@ function onChange(a, b, c) {
 
 export default function Slider() {
     return (
-        <Carousel afterChange={onChange}>
+        <Carousel afterChange={onChange} autoplay infinite>
             <div>
                 <img style={{ width: "100%"}} src={Carousel0} alt="vege" />
             </div>

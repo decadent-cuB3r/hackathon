@@ -1,6 +1,8 @@
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
+import RecipeList from "../components/RecipeList";
+import recipes from "../json/recipes.json";
 import { useContext, useEffect } from "react";
 import { setRecipeDetail } from "../actions";
 import { StoreContext } from "../store"
