@@ -134,6 +134,12 @@
   opacity: 1;
 }
 
+/* HOME */
+.layout-content{
+  background-image: url("./images/HomeIntro/Background.svg");
+  width: 100%;
+}
+
 /* LOGINFORM */
 .loginForm{
   max-width: 540px;
