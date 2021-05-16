@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer clsasName="footer">
             <Row justify="space-between">
-                <Col span={6}>
+                <Col span={6} offset={2}>
                     <Row align="middle" justify="space-around">
                         <img src={LOGO} alt="LOGO" />
                         <img src={LOGOtext} alt="LOGOtext" style={{ height: '100%', width: 'auto' }} />
@@ -19,7 +19,7 @@ export default function Footer() {
                         <img src={InstagramLogo} alt="IG" />
                     </Row>
                 </Col>
-                <Col span={6}>
+                <Col span={6} offset={2}>
                     <Descriptions column={1} >
                         <Descriptions.Item label="聯絡電話">02-12345678</Descriptions.Item>
                         <Descriptions.Item label="總部地址">台北市xxxxxxxxxxx</Descriptions.Item>
@@ -33,10 +33,10 @@ export default function Footer() {
             <Row justify="center">
                 <Col span={6}>
                     <Row justify="space-between">
-                        <Link to="" style={{textDecoration: 'none'}}>聯絡我們</Link>
-                        <Link to="" style={{textDecoration: 'none'}}>人才招募</Link>
-                        <Link to="" style={{textDecoration: 'none'}}>隱私權政策</Link>
-                        <Link to="" style={{textDecoration: 'none'}}>服務條款</Link>
+                        <Link className="footer-bottomLine" to="" style={{textDecoration: 'none'}}>聯絡我們</Link>
+                        <Link className="footer-bottomLine" to="" style={{textDecoration: 'none'}}>人才招募</Link>
+                        <Link className="footer-bottomLine" to="" style={{textDecoration: 'none'}}>隱私權政策</Link>
+                        <Link className="footer-bottomLine" to="" style={{textDecoration: 'none'}}>服務條款</Link>
                     </Row>
                 </Col>
             </Row>
