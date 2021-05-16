@@ -21,7 +21,7 @@ function Login() {
               <UserPhoto/>
               <ProfileNav/>
             </Col>
-            <Col lg={16} offset={1}>
+            <Col md={14} offset={1}>
               <ProfileInfo />
             </Col>
           </Row>

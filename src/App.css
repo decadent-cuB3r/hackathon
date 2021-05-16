@@ -210,7 +210,7 @@ body {
   font-size: 18px;
 }
 
-input.ant-input {
+.loginForm input.ant-input {
   margin-left: 20px;
   padding-left: 8px;
   padding-right: 8px;
@@ -314,6 +314,18 @@ input.ant-input {
   margin-top: 0;
 }
 
+.registerForm input.ant-input {
+  margin-left: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 430px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  position: relative;
+  font-size: 18px;
+}
+
 .registerForm .ant-form-item-control-input-content {
   margin-right: 80px;
   justify-content: flex-end;
@@ -407,6 +419,13 @@ input.ant-input {
   transition: all 0.2s;
 }
 
+.profileInfo-form{
+  margin: 0 40px;
+}
+.profileInfo-form label{
+  font-size: 14px;
+}
+
 .profileInfo{
   height: 790px;
   background-color: #fff;
@@ -420,6 +439,44 @@ input.ant-input {
   height: 2px;
   width: 100%;
   background-color: #000;
+}
+
+.profileInfo input.ant-input{
+  margin-left: 20px;
+  padding-left: 8p;
+  padding-right: 8px;
+  width: 100%;
+  height: 35px;
+  border: 1px solid #000;
+  position: relative;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+.profileInfo-textarea{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.profileInfo-form-buttonDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileInfo-form-button{
+  width: 170px;
+  height: 45px;
+  border: 0;
+  color: #fff;
+  background-color: #FFA48A;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.profileInfo-form-button:hover{
+  background-color: #f6805f;
 }
 
 /* CONTENT */
