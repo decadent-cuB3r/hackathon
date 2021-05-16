@@ -535,6 +535,12 @@ input.ant-input {
   text-align: left;
 }
 
+/* RECIPEDETAIL */
+.recipeDetail-container{
+  background-color: #FFFFFF, 100%;
+}
+
+
 /* FOOTER */
 .footer {
   width: 100%;
