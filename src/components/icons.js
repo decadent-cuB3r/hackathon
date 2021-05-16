@@ -208,3 +208,147 @@ export function PackageIcon({ size }) {
     </svg>
   );
 }
+
+export function CreditCardIcon({ size }) {
+  return (
+    <svg
+      width="75"
+      height="75"
+      viewBox="0 0 75 75"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M65.625 16.4062H9.375C8.08058 16.4062 7.03125 17.4556 7.03125 18.75V56.25C7.03125 57.5444 8.08058 58.5938 9.375 58.5938H65.625C66.9194 58.5938 67.9688 57.5444 67.9688 56.25V18.75C67.9688 17.4556 66.9194 16.4062 65.625 16.4062Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M49.2168 49.2188H58.5918"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M35.1543 49.2188H39.8418"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.0293 28.3746H67.9668"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function MoneyIcon({ size }) {
+  return (
+    <svg
+      width="77"
+      height="77"
+      viewBox="0 0 77 77"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M69.7812 19.25H7.21875C5.88981 19.25 4.8125 20.3273 4.8125 21.6562V55.3438C4.8125 56.6727 5.88981 57.75 7.21875 57.75H69.7812C71.1102 57.75 72.1875 56.6727 72.1875 55.3438V21.6562C72.1875 20.3273 71.1102 19.25 69.7812 19.25Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M38.5 48.125C43.8157 48.125 48.125 43.8157 48.125 38.5C48.125 33.1843 43.8157 28.875 38.5 28.875C33.1843 28.875 28.875 33.1843 28.875 38.5C28.875 43.8157 33.1843 48.125 38.5 48.125Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M52.9375 19.25L72.1875 36.0938"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M52.9375 57.75L72.1875 40.9062"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M24.0625 19.25L4.8125 36.0938"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M24.0625 57.75L4.8125 40.9062"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function NoteIcon({ size }) {
+  return (
+    <svg
+      width="54"
+      height="50"
+      viewBox="0 0 54 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.75 20.4932H25.25"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M12.75 26.3241H25.25"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M12.75 32.1552H19"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M24.6028 42.3595H3.375C2.9606 42.3595 2.56317 42.2059 2.27015 41.9325C1.97712 41.6591 1.8125 41.2884 1.8125 40.9017V11.7465C1.8125 11.3598 1.97712 10.989 2.27015 10.7157C2.56317 10.4423 2.9606 10.2887 3.375 10.2887H34.625C35.0394 10.2887 35.4368 10.4423 35.7299 10.7157C36.0229 10.989 36.1875 11.3598 36.1875 11.7465V31.5513C36.1875 31.7428 36.1471 31.9323 36.0686 32.1092C35.99 32.2861 35.8749 32.4468 35.7299 32.5821L25.7076 41.9325C25.5626 42.0679 25.3903 42.1753 25.2007 42.2485C25.0112 42.3218 24.808 42.3595 24.6028 42.3595V42.3595Z"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M36.0461 32.1537H25.25V42.2268"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
