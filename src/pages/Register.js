@@ -3,7 +3,6 @@ import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import RegisterForm from "../components/RegisterForm";
 import AppFooter from "../components/Footer";
-import cookPot from "../images/HomeIntro/cookPot.png"
 
 const { Header, Content, Footer } = Layout;
 
