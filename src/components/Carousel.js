@@ -1,7 +1,7 @@
 import { Carousel } from 'antd';
 import Carousel0 from "../images/carousel/carousel-0.png";
 import Carousel1 from "../images/carousel/carousel-1.png";
-import Carousel2 from "../images/carousel/carousel-2.png";
+import Carousel2 from "../images/carousel/carousel-2.jpg";
 import Carousel3 from "../images/carousel/carousel-3.png";
 import Carousel4 from "../images/carousel/carousel-4.png";
 
