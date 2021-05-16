@@ -26,7 +26,7 @@ export default function CartContent() {
       <h1 className="cart-title">購物車</h1>
       <div className="cart-hr"></div>
       {cartItems.length === 0 ? (
-        <h2 className="cart-reminder-text">你目前沒有選購任何食譜喔</h2>
+        <h2 className="cart-reminder-text">你目前沒有選購任何食材喔</h2>
       ) : (
         cartItems.map((item) => (
           <li key={item.id} className="cart-item">
