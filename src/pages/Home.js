@@ -12,12 +12,12 @@ function Home() {
   // const { state: {} } = useContext(StoreContext);
   return (
     <>
-      <Layout className="container layout-main">
+      <Layout className="container layout-main home-background">
         <Header className="layout-header">
           <AppHeader />
         </Header>
         <div className="home-background">
-          <Content className="layout-content">
+          <Content className="layout-content layout-content-home">
             <AppCarousel />
             <AppIntro />
           </Content>
