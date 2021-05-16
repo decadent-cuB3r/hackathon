@@ -729,9 +729,10 @@ body {
     background-color: #fff;
 }
 
-.footer {
+footer {
   background-color: #fff;
   padding: 12px;
+  padding-top: 24px;
 }
 
 .footer-bottomLine{

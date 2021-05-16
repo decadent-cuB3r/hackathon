@@ -48,8 +48,8 @@ export const setRecipeDetail = (dispatch, recipeId, qty) => {
     x => x.id === recipeId
   );
   
-  if(qty === 0 && recipe.countInStock > 0)
-      qty = 1;
+  // if(qty === 0 && recipe.countInStock > 0)
+  //     qty = 1;
 
   dispatch({
     type: SET_RECIPE_DETAIL,
