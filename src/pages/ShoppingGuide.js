@@ -1,6 +1,6 @@
 import { Layout } from "antd";
 import AppHeader from "../components/Header";
-import NavBar from "../components/NavBar";
+import ShoppingGuideContent from "../components/ShoppingGuideContent";
 import AppFooter from "../components/Footer";
 
 const { Header, Content, Footer } = Layout;
@@ -11,7 +11,9 @@ function ShoppingGuide() {
         <Header className="layout-header">
           <AppHeader />
         </Header>
-        <Content className="layout-content"></Content>
+        <Content className="layout-content">
+          <ShoppingGuideContent />
+        </Content>
       </Layout>
       <AppFooter />
     </>

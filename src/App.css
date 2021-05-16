@@ -729,6 +729,69 @@ body {
     background-color: #fff;
 }
 
+.footer {
+  background-color: #fff;
+  padding: 12px;
+}
+
+.footer-bottomLine{
+  text-decoration: none;
+  color: #000;
+}
+
+/* SHOPPING GUIDE */
+.shopping-guide-wrap {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 35px;
+}
+
+.shopping-guide-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shopping-guide-title--sec {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.shopping-guide-text {
+  font-size: 18px;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2;
+}
+
+.shopping-guide-text-notes {
+  text-align: left;
+}
+
+.shopping-delivery-info-notifiaction {
+  text-align: left;
+}
+
+.shopping-delivery-info-notifiaction .shopping-guide-text {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-payment-method-icon-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-payment-method-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shopping-payment-method-cash-wrap {
+  margin-left: 64px;
+}
+
 .footer-bottomLine {
     text-decoration: none;
     color: #000;
