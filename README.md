@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# 咖雞煮
+> **咖雞煮** 名稱取自 **自己煮** 的台語發音諧音 (ka-tī-tsú)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 團隊成員
+---
+- 余羿辰 (cub3r.ezra.yu@gmail.com)
+- 林姵綺 (s110819033@stu.ntue.edu.tw)
+- 許弘陽 (siu891014@gmail.com)
+- 鄭朝璣 (s110819010@stu.ntue.edu.tw)
+- 林渝珊 (s110819023@stu.ntue.edu.tw)
 
-## Available Scripts
+### LICENCE
+---
+MIT License
 
-In the project directory, you can run:
+### 零接觸經濟分析 & 解決問題
+---
+1. 現在疫情嚴峻必須避免接觸，但無可避免的是**飲食**為人的必要需求，在不敢出門採購食材的情形下，每天叫外送可能會吃膩且不夠健康，因此人們興起**自己煮**的念頭。
+2. 面對這樣的情形，不擅長下廚的人會感到不知所措，而擅長下廚的人手邊也缺少食材。
+3. **咖雞煮平台**將**烹飪教學**結合**食材外送**，讓不擅長下廚的人也能依照食譜輕易煮出一桌好菜，且事先配好的食材包讓新手更安心。
+4. 同時兼顧擅長下廚的族群，提供**單獨購買食材**的選項，將**新鮮小農產品**直送到府，降低人群接觸風險。
 
-### `yarn start`
+### 使用技術
+---
+- React.js
+- Firebase - Authentication
+- Lottie
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 如何使用
+---
+![首頁](https://i.ibb.co/pz9mS7x/home-1.png)
+![登入頁面](https://i.ibb.co/MgLhMkV/image.png)
+![註冊頁面](https://i.ibb.co/mzrQMBP/image.png)
+![個人資料](https://i.ibb.co/BTbLBWW/image.png)
+![食譜詳細](https://i.ibb.co/tCCf8yR/image.png)
+![商品頁面](https://i.ibb.co/BZpk4p7/image.png)
+![購物車頁面](https://i.ibb.co/jRBHCdv/image.png)
+![購物說明](https://i.ibb.co/7W6nVs4/image.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 未來規劃
+---
+- 待增加的功能
+    - 評論：用戶間可互相分享心得，讓其他人更了解產品情形
+    - 過敏資訊：於食譜備註過敏資訊，避免用戶誤食
+    - 難易度分級：方便用戶依個人能力挑選食譜
+    - 
+- 與多方平台合作
+    - 與用戶合作：開放用戶投稿，如該食譜銷量高，提供投稿者稿費(抽成)
+    - 與小農合作：推出新鮮小農產品供用戶購買，振興農業經濟
+    - 與漁船合作：推出新鮮漁獲產品供用戶購買，振興漁業經濟
+    - 與外送平台合作：結合現有外送資源，快速拓展外送範圍
+- 結合環保元素
+    - 使用環保材質包裝
