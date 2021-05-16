@@ -3,9 +3,20 @@ import { Layout } from "antd";
 import AppHeader from "../components/Header";
 import LoginForm from "../components/LoginForm";
 import AppFooter from "../components/Footer";
-import cookPot from "../images/HomeIntro/cookPot.png"
+import React from 'react';
+import Lottie from 'react-lottie';
+import cookMealJson from "../lottie/cooking-food.json";
 
-const { Header, Content, Footer } = Layout;
+const cookMeal = {
+  loop: true,
+  autoplay: true,
+  animationData: cookMealJson,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
+
+const { Header } = Layout;
 
 function Login() {
   return (
@@ -16,10 +27,14 @@ function Login() {
         </Header>
         <div className="layout-content">
           <Row className="container">
-            <Col span={8} offset={3}>
-              <img src={cookPot} alt="cookPot" class="login-img"/>
+            <Col md={8} offset={2}>
+              <Lottie
+                options={cookMeal}
+                width={380}
+                height={320}
+              />            
             </Col>
-            <Col lg={13}>
+            <Col md={13} offset={1}>
               <LoginForm/>
             </Col>
           </Row>

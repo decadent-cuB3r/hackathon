@@ -103,7 +103,7 @@ const RegisterForm = () => {
           <label className="formLogin-label">密碼：</label>
           <Input
             type="password"
-            placeholder=" "
+            placeholder="密碼長度6~12字元"
           />
         </Form.Item>
         <Form.Item
